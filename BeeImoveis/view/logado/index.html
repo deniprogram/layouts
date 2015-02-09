@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <title>BeeImoveiees</title> 
+         <meta charset="UTF-8">
+         <link href='../home/img/favicon.ico' rel='icon' type='image/x-icon'/>
+         <link rel="stylesheet" type="text/css" href="../../lib/bootstrap/css/bootstrap.min.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+         <link href="../home/css/style2.css" rel="stylesheet">
+         <link href="../../lib/jquery-ui-1.11.2.custom/jquery-ui.css" rel="stylesheet">
+         <script src="../../lib/jquery-ui-1.11.2.custom/external/jquery/jquery.js"></script>
+         <script src="../../lib/jquery-ui-1.11.2.custom/jquery-ui.js"></script>
+         <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+         <script src="../home/js/functionality.js"></script>
+</head>
+
+<body> <!-- Inicio de body -->
+    <div class="container"> <!-- Container Principal -->
+        <div class="row">   <!-- Row Principal -->
+                
+                <div  class = "col-xs-12 col-sm-12 col-md-12 headerTop">  <!--  headerTop -->
+                    <div class="row show-grid">
+                        <div  class="col-xs-12 col-sm-12 col-md-12 headerMenuTop">
+                            <nav class="navbar navbar-default">
+                        <div class="container">
+                           
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">
+									<img width = "240"src="../home/img/logo.png" class  = "logo center-block">
+                                </a>
+                            </div>
+
+                           
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle cidadeSelect" data-toggle="dropdown" role="button" aria-expanded="false">
+                                          Distrito federal
+                                          <span class="glyphicon glyphicon-menu-down"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">Teste</a></li>
+                                            <li><a href="#">Teste</a></li>
+                                            <li><a href="#">Teste</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Teste</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Teste</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class = "destaqueSeo">
+                                        <a href="#">Apartamentos Asa sul</a>
+                                    </li>
+
+                                    <li class = "destaqueSeo">
+                                        <a href="#">Apartamentos Asa norte</a>
+                                    </li>
+
+                                    <li class = "destaqueSeo">
+                                        <a href="#">Casas Asa sul</a>
+                                    </li>
+
+                                    <li class = "destaqueSeo">
+                                        <a href="#">Casas Asa sul</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                         
+                        </div>
+                    </div>
+                </div> <!-- Fim de headerTop -->
+
+                <div class = "lateralLeft col-xs-12 col-sm-4 col-md-3"> <!-- lateralLeft -->
+ 
+                        <!-- Area de login -->    
+                        <div class = "loginMain col-xs-12 col-sm-12 col-md-12">
+                           <form class="form-horizontal">
+                          <article class = "nameAdmin">Olá Denisson</article>
+                        <center>
+                            <button class = "meuPainel btn ">Meu Painel</button>
+                        </center>
+                        <a href = "#" class = "deslogarUser pull-right">Deslogar</a>
+                        </form>
+                        </div>
+                        <!-- Fim de area de login -->
+
+                        <!-- Busca de Imovel -->
+                        <div class = "buscarImovel col-xs-12 col-sm-12 col-md-12">
+                            <article>Busque seu Imóvel</article>
+                            <form>
+                                <center>
+                                    <select class="form-control">
+                                        <option>Destrito Federal</option>
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                    </select>
+
+                                    <select class="form-control">
+                                        <option>Venda</option>
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                    </select>
+
+                                    <select class="form-control">
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                    </select>
+
+                                    <select class="form-control">
+                                        <option>Bairro</option>
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                    </select>
+
+                                    <select class="form-control">
+                                        <option>Apartamento</option>
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                    </select>
+                                </center> 
+
+                                <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox"> Somente Imóveis prontos
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox"> Somente Imóveis em construção
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <label class = "checkboxdestaque">
+                                      <input type="checkbox"> Somente Imóveis de particulares
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox"> Aceitar Imóvel de menor valor
+                                    </label>
+                                </div>
+
+                                <input class="span11 form-control" type="text" placeholder="Localização (Ex, Bloco)">
+
+                                <label class="checkboxOptionPrice">
+                                   Preço até
+                                </label>
+
+                                <div id="slider-range-min" class="col-xs-12 col-sm-12 col-md-12">
+                                </div>
+                                <input type="text" class="span11 form-control" id="amount" readonly="" style="border:0; color:#000; font-weight:bold;">
+
+                                <div class="findProperty">
+                                    <p>Encontrar Imóvel</p>
+                                </div>
+
+                            </form>  
+                        </div>
+                        <!-- Fim de buscar meu imovel -->
+
+                        <!-- Facebook  -->
+                        <div class="facebookLike col-xs-12 col-sm-12 col-md-12">
+                            <div id="fb-root"></div>
+                              <div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="280" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true">
+                            </div>
+                        </div>
+                        <!-- Fim de facebook -->
+
+                        <div class="alertImoveis col-xs-12 col-sm-12 col-md-12">
+                            <img class = "center-block"src = "../home/img/sino.png" />
+                                Receba alertas sobre o imóvel que procura
+                        </div>
+
+
+                                         
+                </div> <!--  Fim lateralLeft -->
+ 
+
+                    <div class = "menuRight col-xs-12 col-sm-8 col-md-9 ">
+
+
+
+                        <ul class="optioSalesUL">  
+
+                            <li class="optioSalesLiMain .col-md-5">
+                                <a class="mainSubPropriet">Anunciar</a> 
+                                <span class="mainSub"><br>
+                                meu Imóvel
+                                </span>
+                            </li>
+
+                            <li class="optioSalesLi">
+                                <a href="#">
+                                     Comprar 
+                                  <span class="mainSob"><br>
+                                     Imóveis
+                                  </span>
+                                </a>
+                            </li>
+
+                            <li class="optioSalesLi retirarLi">
+                                <a href="#">
+                                       Imóveis 
+                                    <span class="mainSob"><br>
+                                       a Venda
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="optioSalesLi retirarLi">
+                                <a href="#">
+                                        Imóveis 
+                                    <span class="mainSob"><br>
+                                        para Alugar
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="optioSalesLi retirarLi">
+                                <a href="#">
+                                        Imóveis 
+                                    <span class="mainSob"><br>
+                                        Comerciais
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="optioSalesLi">
+                                <a href="#">
+                                       Planos 
+                                    <span class="mainSob"><br>
+                                      e valores
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="optioSalesLi">
+                                <a href="#">
+                                       Fale 
+                                    <span class="mainSob"><br>
+                                       Conosco
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                <div class = "lateralRight col-xs-12 col-sm-8 col-md-9 "> <!-- lateralRight -->
+                        
+                        <div class = "headerPainel col-xs-12 col-sm-12 col-md-12 ">
+                                    <img class = " col-xs-2 col-sm-2 col-md-2" src="../home/img/tess.png">
+                                    <h1>Painel de Controler</h1>
+                        </div>
+
+                        <div class = "abasPainel col-xs-12 col-sm-12 col-md-12">
+                            <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+                                <ul id="myTab" class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="">
+                                    <a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="false">
+                                         <span class = "glyphicon glyphicon-envelope"></span>  Minhas mensagens
+                                    </a>
+                                </li>
+								
+                                <li role="presentation" class="active">
+                                    <a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">
+                                        <span class = "glyphicon glyphicon-cloud"></span> Meus Chats
+                                    </a>
+                                </li>
+                                 
+                                </ul>
+                                <div id="myTabContent" class="tab-content">
+                                  <div role="tabpanel" class="tab-pane fade" id="home" aria-labelledby="home-tab">
+                                                
+                                                <table class="table  table-hover">
+                                                      <tbody>
+                                                        <tr >
+                                                          <th  scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Layout do site ...</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                        <tr  class="active">
+                                                          <th scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Layout do site ...</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <th scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Layout do site ...</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <th scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Layout do site ...</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <th scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Layout do site ...</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <th scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Layout do site ...</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                      </tbody>
+                                                </table>
+
+                                                <button type="button" class="btn btn-warning pull-left">  
+                                                    <span class = "glyphicon glyphicon-pencil"></span>
+                                                     Criar nova mensagem
+                                                </button>
+
+                                                <button type="button" class="btn  btn-danger pull-right disabled">  
+                                                    <span class = "glyphicon glyphicon-trash"></span>
+                                                     Apagar
+                                                </button>
+                                  </div>
+
+                                  <div role="tabpanel" class="tab-pane fade active in" id="profile" aria-labelledby="profile-tab">
+                                     <table class="table  table-hover">
+                                                      <tbody>
+                                                        <tr >
+                                                          <th  scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Denisson</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                        <tr  class="active">
+                                                          <th scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Denisson</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <th scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Denisson</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <th scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Denisson</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <th scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>LDenisson</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <th scope="row"><input type = "checkbox" /></th>
+                                                          <td>Gabriel Borges</td>
+                                                          <td>Denisson</td>
+                                                          <td>12/11/2015</td>
+                                                        </tr>
+                                                      </tbody>
+                                                </table>
+
+                                                <button type="button" class="btn btn-warning pull-left">  
+                                                    <span class = "glyphicon glyphicon-pencil"></span>
+                                                     Criar nova mensagem
+                                                 </button>
+
+                                                  <button type="button" class="btn  btn-danger pull-right disabled">  
+                                                    <span class = "glyphicon glyphicon-trash"></span>
+                                                     Apagar
+                                                 </button>
+                                  </div>                               
+                                </div>
+                            </div>
+                        </div>
+
+                          <div class = "headercasas col-xs-12 col-sm-12 col-md-12 ">
+                                <h1>Meus Favoritos</h1>
+                                <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3">
+                                            <figure>
+                                                <img src = "../home/img/casas1.jpg" class="img-responsive" alt="Responsive image" />
+                                            </figure>
+                                            <a href  = "#">
+                                                Apartamento Lago Norte - Condominio
+                                            </a>
+                                </div>
+
+                                <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3">
+                                            <figure>
+                                                <img src = "../home/img/casas1.jpg" class="img-responsive" alt="Responsive image" />
+                                            </figure>
+                                            <a href  = "#">
+                                                Apartamento Lago Norte - Condominio
+                                            </a>
+                                </div>
+
+                                <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3">
+                                            <figure>
+                                                <img src = "../home/img/casas1.jpg" class="img-responsive" alt="Responsive image" />
+                                            </figure>
+                                            <a href  = "#">
+                                                Apartamento Lago Norte - Condominio
+                                            </a>
+                                </div>
+
+                                <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3">
+                                            <figure>
+                                                <img src = "../home/img/casas1.jpg"  class="img-responsive" alt="Responsive image"/>
+                                            </figure>
+                                            <a href  = "#">
+                                                Apartamento Lago Norte - Condominio
+                                            </a>
+                                </div>
+
+                                <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3">
+                                            <figure>
+                                                <img src = "../home/img/casas1.jpg"  class="img-responsive" alt="Responsive image"/>
+                                            </figure>
+                                            <a href  = "#">
+                                                Apartamento Lago Norte - Condominio
+                                            </a>
+                                </div>
+
+                                <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3">
+                                            <figure>
+                                                <img src = "../home/img/casas1.jpg" class="img-responsive" alt="Responsive image"/>
+                                            </figure>
+                                            <a href  = "#">
+                                                Apartamento Lago Norte - Condominio
+                                            </a>
+                                </div>
+
+
+                                <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3">
+                                            <figure>
+                                                <img src = "../home/img/casas1.jpg" class="img-responsive" alt="Responsive image" />
+                                            </figure>
+                                            <a href  = "#">
+                                                Apartamento Lago Norte - Condominio
+                                            </a>
+                                </div>
+
+
+                                <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3">
+                                            <figure>
+                                                <img src = "../home/img/casas1.jpg" class="img-responsive" alt="Responsive image" />
+                                            </figure>
+                                            <a href  = "#">
+                                                Apartamento Lago Norte - Condominio
+                                            </a>
+                                </div>
+ 
+
+                        </div>
+
+                        <div class = "headercasas col-xs-12 col-sm-12 col-md-12 ">
+                                  <h1>Últimos imóveis visitados</h1>
+
+                            <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3 viewMovel">
+                                <figure>
+                                    <img src = "../home/img/casas1.jpg" class="img-responsive" alt="Responsive image"/>
+                                </figure>
+                                <a href  = "#">
+                                    Apartamento Lago Norte - Condominio
+                                </a>
+                            </div>
+
+                            <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3 viewMovel">
+                                <figure>
+                                    <img src = "../home/img/casas1.jpg" class="img-responsive" alt="Responsive image" />
+                                </figure>
+                                <a href  = "#">
+                                    Apartamento Lago Norte - Condominio
+                                </a>
+                            </div>
+
+
+                            <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3 viewMovel">
+                                <figure>
+                                    <img src = "../home/img/casas1.jpg"  class="img-responsive" alt="Responsive image"/>
+                                </figure>
+                                <a href  = "#">
+                                    Apartamento Lago Norte - Condominio
+                                </a>
+                            </div>
+
+                            <div class = " favoritaCasa col-xs-3 col-sm-3 col-md-3 viewMovel">
+
+                                <figure>
+                                    <img src = "../home/img/casas1.jpg" class="img-responsive" alt="Responsive image"/>
+                                </figure>
+
+                                <a href  = "#">
+                                    Apartamento Lago Norte - Condominio
+                                </a>
+                            </div>
+                             
+                                <div class = "col-xs-3 col-sm-12 col-md-12 center-block">
+                                    <button type="button" class="btn btn-warning comparacaoImovelbtn center-block">Comparar Imoveis Selecionados</button>
+                                </div>
+                             
+                        </div>
+
+                    <div class="headercasas comparacaoImovel col-xs-12 col-sm-12 col-md-12 ">
+                        <h1>Comparação de Imoveis</h1>
+                        <center>
+                            <div class = "movelOne col-xs-3 col-sm-5 col-md-5">
+                                <img src="../home/img/casas1.jpg" class="img-responsive" alt="Responsive image">
+                                <p>Cod. 50541</p>
+                                <address>QL 12 cj 08 cs 22</address>
+                            </div>
+                            <div class = "movelTwe col-xs-3 col-sm-2 col-md-2" >
+                                <h3> VS</h3>
+                            </div>
+                            <div class = "movelTwe col-xs-3 col-sm-5 col-md-5">
+                                <img src="../home/img/casas1.jpg" class="img-responsive" alt="Responsive image">
+                                <p>Cod. 50541</p>
+                                <address>QL 12 cj 08 cs 22</address>
+                            </div>
+                        </center>
+
+
+                        <table class="table table-striped comparacaoDevalores table-bordered">
+                            <tbody>
+                            <tr>
+                                <td>R$2.000.000</td>
+                                <td  class="warning" colspan="2" >Preco</td>
+                                <td>R$ 2.050.000</td>
+                            </tr>
+
+                            <tr >
+                                <td>400m2</td>
+                                <td class="warning" colspan="2" >m2</td>
+                                <td>5000m2</td>
+                            </tr>
+
+                            <tr>
+                                <td>R$5.000</td>
+                                <td class="warning" colspan="2" >Preco do m2</td>
+                                <td>R$6.000</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>4</td>
+                                <td class="warning" colspan="2" >Quarto</td>
+                                <td>6</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>3</td>
+                                <td class="warning"colspan="2" >Suites</td>
+                                <td>2</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>3</td>
+                                <td class="warning" colspan="2" >Banheiro</td>
+                                <td>2</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>2</td>
+                                <td class="warning" colspan="2" >Garagens</td>
+                                <td>4</td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td class="warning" colspan="2" >Andar</td>
+                                <td>3</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>0</td>
+                                <td class="warning" colspan="2" >Andares</td>
+                                <td>0</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Brasilia</td>
+                                <td class="warning" colspan="2" >Cidade</td>
+                                <td>Bahia</td>
+                            </tr>
+
+
+                            </tbody>
+                        </table>
+
+
+                    </div>
+
+
+                            <div class = "headercasas col-xs-12 col-sm-12 col-md-12 ">
+                                <h1>Minha Agenda</h1>
+
+                                <div class="agendaPainel col-xs-3 col-sm-3 col-md-3">
+                                        <h1>13/12/2015</h1>
+
+                                        <div class="checkbox">
+                                            <label>
+                                             Visita confirmada ao imovel SHIN Qi 13 cj 08 cs 11
+                                            </label>
+                                        </div>
+                                        <button type="button" class="btn btn-warning col-xs-12 col-sm-12 col-md-12">Agendar nova visita</button>
+                                        <button type="button" class="btn btn-danger col-xs-12 col-sm-12 col-md-12">Cancelar visita</button>
+                                </div>
+
+                                 <div class="agendaPainel col-xs-3 col-sm-3 col-md-3">
+                                        <h1>13/12/2015</h1>
+
+                                        <div class="checkbox">
+                                            <label>
+                                              Visita confirmada ao imovel SHIN Qi 13 cj 08 cs 11
+                                            </label>
+                                        </div>
+                                        <button type="button" class="btn btn-warning col-xs-12 col-sm-12 col-md-12">Agendar nova visita</button>
+                                        <button type="button" class="btn btn-danger col-xs-12 col-sm-12 col-md-12">Cancelar visita</button>
+                                </div>
+
+
+                                 <div class="agendaPainel col-xs-3 col-sm-3 col-md-3">
+                                        <h1>13/12/2015</h1>
+
+                                        <div class="checkbox">
+                                            <label>
+                                              Visita confirmada ao imovel SHIN Qi 13 cj 08 cs 11
+                                            </label>
+                                        </div>
+                                        <button type="button" class="btn btn-warning col-xs-12 col-sm-12 col-md-12">Agendar nova visita</button>
+                                        <button type="button" class="btn btn-danger col-xs-12 col-sm-12 col-md-12">Cancelar visita</button>
+                                </div>
+
+                                 <div class="agendaPainel col-xs-3 col-sm-3 col-md-3">
+                                        <h1>13/12/2015</h1>
+
+                                        <div class="checkbox">
+                                            <label>
+                                             Visita confirmada ao imovel SHIN Qi 13 cj 08 cs 11
+                                            </label>
+                                        </div>
+                                        <button type="button" class="btn btn-warning col-xs-12 col-sm-12 col-md-12">Agendar nova visita</button>
+                                        <button type="button" class="btn btn-danger col-xs-12 col-sm-12 col-md-12">Cancelar visita</button>
+                                </div>
+
+                            </div>
+                                 
+                </div> <!-- Fim de lateralRight -->
+                
+
+                <div class = "footer col-xs-12 col-sm-12 col-md-12">
+                        <footer >
+                                <ul class = "col-sm-1 col-md-1" >
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li> 
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+                        </footer>       
+                </div>
+
+        </div> <!-- Fim de Row Principal -->
+    </div><!-- Fim de Container Principal -->
+
+    <div class = "footerMain">
+        </div>
+
+        <div class = "footerMainTwe">
+             <div class = "footerMensagem"> 
+                 Copyright(c) BeeImoveis 2015 - Produzido por 2creative: 
+                 <a href = "http://www.2creativegames.com.br/" target="_blank" >www.2creativegames.com.br</a>
+             </div>
+        </div>
+
+</body><!-- Fim de body -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

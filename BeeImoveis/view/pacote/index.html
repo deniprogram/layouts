@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <title>BeeImoveiees</title> 
+         <meta charset="UTF-8">
+         <link href='../home/img/favicon.ico' rel='icon' type='image/x-icon'/>
+         <link rel="stylesheet" type="text/css" href="../../lib/bootstrap/css/bootstrap.min.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+         <link href="../home/css/style2.css" rel="stylesheet">
+         <link href="../../lib/jquery-ui-1.11.2.custom/jquery-ui.css" rel="stylesheet">
+         <script src="../../lib/jquery-ui-1.11.2.custom/external/jquery/jquery.js"></script>
+         <script src="../../lib/jquery-ui-1.11.2.custom/jquery-ui.js"></script>
+         <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+         <script src="../home/js/functionality.js"></script>
+</head>
+
+<body> <!-- Inicio de body -->
+    <div class="container"> <!-- Container Principal -->
+        <div class="row">   <!-- Row Principal -->
+                
+                <div  class = "col-xs-12 col-sm-12 col-md-12 headerTop">  <!--  headerTop -->
+                    <div class="row show-grid">
+                        <div  class="col-xs-12 col-sm-12 col-md-12 headerMenuTop">
+                            <nav class="navbar navbar-default">
+                                 <div class="container">
+                           
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                            <span class="sr-only"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                         <a class="navbar-brand" href="../login/index.html">
+                                            <img width = "240"src="../home/img/logo.png" class  = "logo center-block">
+                                        </a>
+                                    </div>
+
+                           
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle cidadeSelect" data-toggle="dropdown" role="button" aria-expanded="false">
+                                          Distrito federal
+                                          <span class="glyphicon glyphicon-menu-down"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">Teste</a></li>
+                                            <li><a href="#">Teste</a></li>
+                                            <li><a href="#">Teste</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Teste</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Teste</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class = "destaqueSeo">
+                                        <a href="#">Apartamentos Asa sul</a>
+                                    </li>
+
+                                    <li class = "destaqueSeo">
+                                        <a href="#">Apartamentos Asa norte</a>
+                                    </li>
+
+                                    <li class = "destaqueSeo">
+                                        <a href="#">Casas Asa sul</a>
+                                    </li>
+
+                                    <li class = "destaqueSeo">
+                                        <a href="#">Casas Asa sul</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                         
+                        </div>
+                    </div>
+                </div> <!-- Fim de headerTop -->
+
+                <div class = "lateralLeft col-xs-12 col-sm-4 col-md-3"> <!-- lateralLeft -->
+ 
+                        <!-- Area de login -->    
+                        <div class = "loginMain col-xs-12 col-sm-12 col-md-12">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            <input type="password" class="form-control" id="indputEmail3" placeholder="Senha">
+                            <a class = "btn pull-left btn-link">Cadastre-se</a>
+                            <a href = "../paineladmin/index.html">
+                            	<button class = "btn pull-right  col-xs-5 col-sm-6 col-md-6">Login</button>
+                            </a>
+                            <a class = "btn pull-right btn-link" >Esqueci minha senha</a>
+                        </div>
+                        <!-- Fim de area de login -->
+
+                        <!-- Busca de Imovel -->
+                        <div class = "buscarImovel col-xs-12 col-sm-12 col-md-12">
+                            <article>Busque seu Imóvel</article>
+                            <form class = "center-block">
+                               
+                                    <select class="form-control">
+                                        <option>Destrito Federal</option>
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                    </select>
+
+                                    <select class="form-control">
+                                        <option>Venda</option>
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                    </select>
+
+                                    <select class="form-control">
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                    </select>
+
+                                    <select class="form-control">
+                                        <option>Bairro</option>
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                    </select>
+
+                                    <select class="form-control">
+                                        <option>Apartamento</option>
+                                        <option>Cidade</option>
+                                        <option>Cidade</option>
+                                    </select>
+                                
+
+                                <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox"> Somente Imóveis prontos
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox"> Somente Imóveis em construção
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <label class = "checkboxdestaque">
+                                      <input type="checkbox"> Somente Imóveis de particulares
+                                    </label>
+                                </div>
+
+                                <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox"> Aceitar Imóvel de menor valor
+                                    </label>
+                                </div>
+
+                                <input class="span11 form-control" type="text" placeholder="Localização (Ex, Bloco)">
+
+                                <label class="checkboxOptionPrice">
+                                   Preço até
+                                </label>
+
+                                <div id="slider-range-min" class="col-xs-12 col-sm-12 col-md-12">
+                                </div>
+
+                                <input type="text" class="span11 form-control" id="amount" readonly style="border:0; color:#000; font-weight:bold;">
+
+                                <div class="findProperty">
+                                    <p>Encontrar Imóvel</p>
+                                </div>
+
+                            </form>  
+                        </div>
+                        <!-- Fim de buscar meu imovel -->
+
+                        <!-- Facebook  -->
+                        <div class="facebookLike col-xs-12 col-sm-12 col-md-12 center-block">
+                        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookDevelopers&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
+                          </center>
+                        </div>
+                        <!-- Fim de facebook -->
+
+                        <div class="alertImoveis col-xs-12 col-sm-12 col-md-12">
+                            <img class = "center-block"src = "../home/img/sino.png" />
+                                Receba alertas sobre o imóvel que procura
+                        </div>
+
+
+                                         
+                </div> <!--  Fim lateralLeft -->
+ 
+
+                    <div class = "menuRight col-xs-12 col-sm-8 col-md-9 ">
+                        
+                        <ul class="optioSalesUL">  
+                            <li class="optioSalesLiMain .col-md-5">
+                                <a class="mainSubPropriet">Anunciar</a> 
+                                <span class="mainSub"><br>
+                                meu Imóvel
+                                </span>
+                            </li>
+
+                            <li class="optioSalesLi">
+                                <a href="#">
+                                     Comprar 
+                                  <span class="mainSob"><br>
+                                     Imóveis
+                                  </span>
+                                </a>
+                            </li>
+
+                            <li class="optioSalesLi retirarLi">
+                                <a href="#">
+                                       Imóveis 
+                                    <span class="mainSob"><br>
+                                       a Venda
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="optioSalesLi retirarLi">
+                                <a href="#">
+                                        Imóveis 
+                                    <span class="mainSob"><br>
+                                        para Alugar
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="optioSalesLi retirarLi">
+                                <a href="#">
+                                        Imóveis 
+                                    <span class="mainSob"><br>
+                                        Comerciais
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="optioSalesLi">
+                                <a href="../planosevalores/index.html">
+                                       Planos 
+                                    <span class="mainSob"><br>
+                                      e valores
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="optioSalesLi">
+                                <a href="#">
+                                       Fale 
+                                    <span class="mainSob"><br>
+                                       Conosco
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                <div class = "lateralRight col-xs-12 col-sm-8 col-md-9 "> <!-- lateralRight -->
+                    <div class = "containerCenter col-xs-12 col-sm-12 col-md-12 chechout escolhido">
+                        <h3>O pacote escolhido foi.</h3>
+
+<div class = "col-xs-12 col-sm-12 col-md-12">
+                        <div class = "planoEscolhido col-xs-4 col-sm-3 col-md-3">
+                            <img src = "../home/img/planoBasico2.png" class="img-responsive" width = "150" /> 
+                        </div>
+
+                        <div class = "planoEscolhidoEspeci col-xs-8 col-sm-8 col-md-9">
+                            <div class="checkbox">
+                                        <label>
+                                            <img src="../home/img/iconmarca.png"> Filmagem com drone
+                                        </label>
+                            </div>
+
+                            <div class="checkbox">
+                                        <label>
+                                            <img src="../home/img/iconmarca.png"> Anuncio
+                                        </label>
+                            </div>
+
+                            <div class="checkbox">
+                                        <label>
+                                            <img src="../home/img/iconmarca.png"> Outros
+                                        </label>
+                            </div>
+
+                            <div class="checkbox">
+                                        <label>
+                                            <img src="../home/img/iconmarca.png"> Outros
+                                        </label>
+                            </div>
+
+                        </div>
+ </div>
+                        <p class = "textMarcktin">
+                             O BeeImoveis oferece opções extras que aumentam a velocidade de venda de seus Imoveis.       
+                        </p>
+
+                        <div class =  "col-xs-12 col-sm-12 col-md-12 planosOferecer">
+                            <div class = "imgEscolhido col-xs-3 col-sm-3 col-md-3">
+                                <img src = "../home/img/prancheta.png" class="img-responsive" width = "100" /> 
+                            </div>
+
+                            <div class = "especificacaoPlanos col-xs-5 col-sm-5 col-md-7"  >
+                                 <div class="checkbox">
+                                        <label class = "titleplano">
+                                              Filmagem com drone
+                                        </label>
+                                </div>
+
+                                <p>
+                                    O BeeImoveis oferece opções extras que aumentam a velocidade de venda de seus Imoveis
+                                </p>
+                            </div>  
+
+                            <div class = " col-xs-5 col-sm-5 col-md-2 actionPlano" >
+                                    <b>R$: 200,00</b>
+                                    <button type="submit" class="btn btn-default addPlano">Adicionar</button>
+                            </div> 
+
+                         </div>   
+ 
+                         <div class =  "col-xs-12 col-sm-12 col-md-12 planosOferecer">
+                            <div class = "imgEscolhido col-xs-3 col-sm-3 col-md-3">
+                                <img src = "../home/img/alice.png" class="img-responsive" width = "100" /> 
+                            </div>
+
+                            <div class = "especificacaoPlanos col-xs-5 col-sm-5 col-md-7"  >
+                                 <div class="checkbox">
+                                        <label class = "titleplano">
+                                              Filmagem com drone
+                                        </label>
+                                </div>
+                                <p>
+                                    O BeeImoveis oferece opções extras que aumentam a velocidade de venda de seus Imoveis
+
+                                </p>
+                            </div>  
+
+                            <div class = " col-xs-5 col-sm-5 col-md-2 actionPlano" >
+                                    <b>R$: 200,00</b>
+                                    <button type="submit" class="btn btn-default addPlano">Adicionar</button>
+                            </div> 
+
+                         </div> 
+                         <div class = "col-xs-12 col-sm-12 col-md-12">
+
+                         <a href = "../checkout/index.html ">
+                             <button type="submit" class="btn btn-default addPlano center-block">Pagar e fazer anuncio</button>
+                         </a>
+                     </div>
+                    </div>
+
+                </div> <!-- Fim de lateralRight -->
+
+                <div class = "footer col-xs-12 col-sm-12 col-md-12">
+                        <footer >
+                                <ul class = "col-sm-1 col-md-1" >
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li> 
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+                        </footer>       
+                </div>
+
+        </div> <!-- Fim de Row Principal -->
+    </div><!-- Fim de Container Principal -->
+
+    <div class = "footerMain">
+    </div>
+
+    <div class = "footerMainTwe">
+             <div class = "footerMensagem"> 
+                 Copyright(c) BeeImoveis 2015 - Produzido por 2creative: 
+                 <a href = "http://www.2creativegames.com.br/" target="_blank" >www.2creativegames.com.br</a>
+             </div>
+    </div>
+
+</body><!-- Fim de body -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

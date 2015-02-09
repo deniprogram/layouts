@@ -1,0 +1,1432 @@
+
+@media screen and (max-width:770px){
+	.lateralRight, .footer, .facebookLike, .alertImoveis, .menuRight{
+		display: none;
+	}
+	.loginMain a{
+		padding-right: 6px;
+	}
+
+	.paginacao p{
+        margin-top:-100px;
+        margin-right:100px;
+    }
+}
+
+@media screen and (max-width:770px){
+	.loginMain a{
+		padding-right: 30px !important;
+	}
+}
+
+@media screen and (max-width:1200px){
+		.cidadeSelect, .destaqueSeo{
+			margin-top: 10px !important;
+		}
+}
+
+@media screen and (max-width:990px){
+	.retirarLi, .footer, .destaqueSeo{
+		display: none !important;
+	}
+
+	.mensagemDestaque{
+		 font-size:18px !important;
+	}
+	.anuncioHome h4{
+		left: 50px !important;
+		top:150px !important;
+	}
+
+	.agendaPainel button{
+		font-size: 8px !important;
+	}
+}
+
+body{
+	background: #e1e3e6;
+	margin-top: 5px;
+}
+.navbar-brand{
+
+	height: 130px;
+	margin-bottom: 0px !important;
+}
+.logo{
+
+}
+.headerMenuTop{
+ 
+	margin-bottom: -15px !important;
+	background: url("../img/te.png") no-repeat !important; 
+	background-position: 500px -5px !important;
+		background-size: 500px !important;
+}
+
+.lateralLeft{
+
+}
+.lateralRight{
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:0px !important;
+	padding-right: 0px !important; 
+}
+
+.footer footer{
+	width: 101.4%;
+	background-image: url("../img/backHome.jpg") !important; 
+	margin-top: 5px !important;
+	padding: 10px;
+	height: 200px !important;
+	padding-left: 110px;
+	border-radius: 6px;
+}
+.footerView{
+	width: 98.8%;
+}
+.navbar{background: none !important;}
+.footer footer ul{
+	float: left !important;
+	margin-right: 60px !important;
+}
+.footer footer  ul li{
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.footer footer ul li a{
+	color:#fff !important;
+}
+.titleMenu{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff !important;
+	list-style-type: none !important;
+}
+
+.footerMain{
+	background-image: url("../img/der.png")  !important; 
+	background-repeat: repeat-x;
+	margin-top: 30px !important;
+	height: 180px;
+}
+.footerMainTwe{
+	background: #000;
+	height: 100px;
+   padding-top:40px;
+}
+.footerMensagem{
+	font-size: 16px;
+	text-align: center;
+	font-weight: 100;
+    color: #fff;
+}
+
+.menuTop{
+	background:none !important;
+	border:1px solid red;
+}
+.logoLi{
+ 
+ 
+	margin-bottom: -15px;
+}
+.destaqueSeo{
+	text-decoration: underline !important;
+	margin-top: 36px;
+	font-size: 13px;
+	margin-left: -10px;
+}
+.destaqueSeo a{
+color:#333 !important;
+}
+.cidadeSelect{
+	font-size: 17px;
+	color:#000 !important;
+	margin-top: 40px ;
+	margin-left: -0px;
+}
+.loginMain{
+	background-image: url("../img/backHome.jpg") !important; 
+	border-radius: 5px !important; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.loginMain input{
+margin-bottom: 8px;
+}
+
+.loginMain a{
+	color: #fff;
+	text-decoration: underline;
+	font-weight: 100;
+	padding: 0px;
+}
+.loginMain button {
+	background: url("../img/abb.png") #e1a200 no-repeat !important; 
+	 background-position: center right !important;
+	color: #000;
+	text-align: left;
+	font-size: 18px;
+	font-family: Tahoma;
+}
+.buscarImovel{
+	margin-top: 10px;
+	background: #e5af21;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0px 0px 5px #333;
+	border-top:2px solid #ffe963;
+}
+
+.buscarImovel article{
+	font-size: 24px; 
+	color:#2b2b2c;
+	text-align:center;
+	letter-spacing:-1px;
+}
+.buscarImovel select {
+	margin-top: 5px;
+}
+.checkboxdestaque{
+	color: #b70404;
+}
+#slider-range-min{
+	margin-top: 10px;
+	margin-bottom: 13px;
+	background: #333 !important; 
+	min-height: 5px !important; 
+	height:5px !important; 
+	border:0px solid #fff !important;
+}
+.ui-slider-handle{
+	border:0px solid #fff !important;
+}
+.checkboxOptionPrice{
+	font-weight:bold;
+	font-size: 13px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}	
+
+.findProperty p{
+ font-size: 23px;
+ }
+.findProperty{
+	height: 54px;
+	border-top: 2px solid #5e5e5e;
+	background: #1b1b1b ;
+	background-position: right 0px;
+	border-radius: 8px;
+	font-size: 170%;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 10px;
+	
+} 
+
+.facebookLike{
+	 margin-top:10px !important;
+	 background:#fff;
+	 padding:20px;
+	 border-radius:6px;
+	 height:auto;
+	 margin-bottom:5px;
+}
+.alertImoveis{
+	 margin-top: 5px !important;
+	 height:216px;
+	 background: #e5af21; 
+	 background-position: center top;
+	 font-size: 20px;
+	 color:#333;
+	 font-weight: bold; 
+	 text-align: center;
+	 padding-top:10px;
+	 font-family:arial;
+	 color:#2b2b2c;
+	 font-weight: 100;
+	 padding-right: 10px !important;
+	 border-radius: 6px;
+	 border-top:3px solid #ffe461;
+	 box-shadow: 0px 0px 5px #333;
+	 margin-bottom:5px;
+}
+.menuRight{
+	background-image: url("../img/backHome.jpg") !important; 
+	height: 58px;
+	border-radius: 5px !important;
+}
+.menuRightTwe{
+	background-image: url("../img/backHome.jpg") !important;
+	height: 58px;
+	border-radius: 5px !important;
+}
+
+.optioSalesUL li{
+	float:left !important;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	list-style-type: none !important;
+	text-align: center;
+}
+.optioSalesUL li a{
+	color: #fff ;
+}
+.mainSob{
+	font-size: 13px !important;
+	font-weight: bold !important;
+}
+.optioSalesLiMain{
+	background:#e5af21;
+	width: 120px;color: #000 !important;
+	padding-top: 0px !important;
+	margin-top: 5px;
+	padding-bottom: 5px !important;
+	border-radius: 6px;
+	margin-left: -49px !important;
+}
+.optioSalesLiMain a{
+	color: #000 !important;
+}
+.mainSubPropriet{
+	font-size: 17px !important;
+}
+.divDestaqueOne{
+ 	background: #fff;
+	border-right: 6px solid  #e1e3e6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	background: url("../img/tes.png") #fff no-repeat !important; 
+	background-position: 0 290px !important;
+	margin-bottom: 10px;
+}
+.divDestaqueTwe{
+	background: #fff;
+	border-right: 3px solid  #fff;
+	padding-top: 10px;
+	border-left:6px solid #e1e3e6;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	background: url("../img/tes.png") #fff no-repeat !important; 
+	background-position: 0 290px !important;
+	margin-bottom: 10px;
+}
+.divDestaqueOne article{
+	font-size: 18px;
+	font-weight: 100px;
+}
+.divDestaqueOne figure{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.divDestaqueOne p{
+	font-size: 12px;
+ 	text-align: justify;
+ 	color: #000;
+}
+.divDestaqueTwe article{
+	font-size: 18px;
+	font-weight: 100px;
+}
+.divDestaqueTwe figure{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.divDestaqueTwe p{
+	font-size: 12px;
+ 	text-align: justify;
+ 	color: #000;
+}
+.titleMoveis{
+	font-size: 25px;
+	font-weight: 100;
+	text-align: center;
+	 
+}
+.anuncioHome{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #fff;
+	margin-top: 5px;
+ 
+	border-radius: 6px;
+}
+.imgCasaAnuncianteHome{
+	padding-left:0px !important;
+	padding-right:0px !important;
+	border:2px solid #e5af21;
+}
+.anuncioHome h5{
+ font-size: 13px;
+ font-weight:bold;
+}
+.anuncioHome h6{
+	color: #A39797;
+}
+.anuncioHome h4{
+	color:#e1a41c;
+	font-size: 18px;
+	position:absolute;
+    	right:10px;
+    	top:5px;
+}
+.anuncioHome button{
+font-size:17px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background: #000;
+	color:#e1a41c;
+	position:absolute;
+	position:absolute;
+	left:17px;
+	-moz-left:10;
+	z-index:200;
+	    border-radius:0px;
+}
+.anuncioHome label{
+	margin-bottom: 5px;
+}
+
+.btnAluguel{
+
+    background:#e1a41c !important;
+    color:#000 !important;
+    border-radius:0px;
+}
+
+.destaqueChmadaOne{
+	margin-top: 5px;
+	padding: 8px;
+	background: #fff;
+	border-radius: 5px;
+}
+ .imgChamada{
+	background: url("../img/casaone.jpg") #fff no-repeat !important; 
+	height: 210px;
+}
+
+.destaqueChmadaTwe{
+	margin-top: 5px;
+padding: 8px;
+	background: #fff;
+	border-radius: 5px;
+	border-right: 5px solid #e1e3e6;
+	border-left: 5px solid #e1e3e6;
+}
+
+.destaqueChmadaTre{
+	margin-top: 5px;
+	padding: 8px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.mensagemDestaque{
+text-align: center;
+font-size: 24px;
+color:#fff;
+font-weight: 200;
+background:rgba(000,000,000,0.8);
+height: 95px;
+margin-top: -95px !important;
+padding-top: 20px;
+transition: opacity 0.3s;
+}
+.mensagemDestaque:hover{
+opacity: 0.9;
+}
+.headerPainel{
+	background: #fff;
+	border-radius: 5px;
+}
+.headerPainel h1{ 
+	font-size:25px; 
+	margin-top: 30px;
+}
+.abasPainel{
+	background: #fff;
+	margin-top: 10px !important;
+	border-radius: 5px;
+	padding-bottom: 10px;
+}
+.headercasas{
+	background: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.headercasas h1{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom:20px !important;
+}
+.favoritaCasa img{
+    border:4px solid #e5af21;
+    border-radius:5px;
+}
+
+.favoritaCasa img:hover{
+    border:4px solid #333;
+}
+.favoritaCasa{
+	margin-bottom: 10px;
+}
+.favoritaCasa a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.headercasas button{
+	color: #333;
+	font-weight: bold;
+	margin: auto;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.agendaPainel{
+	font-size: 14px;
+	color: #333;
+	background: #ebebeb;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border-right: 2px solid #fff;
+	padding-bottom: 10px;
+}
+.agendaPainel h1{
+	text-align: center;
+	font-size: 13px;
+}
+
+.agendaPainel .checkbox{
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 10px !important;
+}
+
+.agendaPainel button{
+	font-size: 14px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 3px;
+}
+
+.meuPainel{
+	padding: 10px 50px 10px 50px;
+	background: #e1a200;
+	font-size: 20px;
+	font-weight: 120px;
+	margin-top:40px;
+	color: #000;
+}
+.nameAdmin{
+	color: #fff;
+	font-size: 19px;
+}
+.deslogarUser{
+	color:#fff;
+	text-decoration: underline;
+	font-size: 14px;
+	font-weight: 110;
+	margin-top: 30px;
+	display: block;
+}
+.comparacaoTwe{
+border-left: 6px solid #e1e3e6;
+border-right: 0px solid #e1e3e6 !important;
+}
+
+.comparacaoOne{
+	background: #fff;
+	border-right: 6px solid #e1e3e6;
+	border-radius: 5px;
+	padding-bottom: 10px;
+}
+.comparacaoOne h1{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.comparacaoOne input{
+ 
+}
+.comparacaoOne a{
+	color: #000;
+	text-decoration: underline;
+	font-size: 12px;
+	margin-left:15px;
+}
+.comparacaoOne img{
+	margin-top: 10px;
+	border-right: 3px solid #333;
+	border-bottom: 3px solid #333;
+}
+.comparaImoveInfor{
+	background: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.comparaImoveInfor h1{
+	text-align: center;
+	font-size: 13px;
+}
+
+.movelOne p{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 15px;
+}
+.movelOne address{
+	margin-top: -10px;
+}
+
+.movelTwe p{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 15px;
+}
+.movelTwe address{
+	margin-top: -10px;
+}
+
+.descricaoprojeto{
+	background: #fff;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom:10px;
+
+}
+.descricaoprojeto img {
+	margin-top: 20px;
+}
+
+.viewMovel{
+        background: #BFBFB9;
+        border-radius: 5px;
+        border-right:3px solid #fff;
+        padding-top:10px;
+        padding-bottom:10px;
+}
+.viewMovel:hover{
+        background: #f0ad4e;
+}
+
+.selecionado{
+     background: #f0ad4e;
+     border-radius: 5px;
+     border-right:3px solid #fff;
+     padding-top:10px;
+     padding-bottom:10px;
+     margin-top:-10px;
+}
+
+.selecionado img{
+ border:3px solid #333;
+}
+
+.descricaoprojeto .checkbox{
+    margin-top:-26px;
+}
+.descricaoprojeto .checkbox p{
+    margin-top:20px;
+    margin-left:5px;
+    float:right;
+}
+
+.primeiroimovelCompara{
+	margin-left: 200px !important;
+}
+.comparacaoDevalores{
+	text-align: center;
+    border:3px solid #FFF0B2;
+    box-shadow:0px 0px 15px #999;
+}
+.anuncioImgdestaque{
+	background: rgba(229,175,33,0.9);
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	margin-bottom: -45px;
+}
+.anuncioImgdestaqueTwe{
+	background: rgba(34,35,37,0.9);
+	background: url("../img/gal.png") rgba(34,35,37,0.9) no-repeat !important; 
+	 background-position: center right !important;
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: -45px;
+	color: #e5af21;
+}
+.divDestaqueOne img{
+	border-right: 4px solid #000;
+	border-bottom: 4px solid #000;
+}
+.divDestaqueTwe img{
+	border-right: 4px solid #e5af21;
+	border-bottom: 4px solid #e5af21;
+}
+.galinhaMorta{
+	border: none !important;
+	margin-bottom: -10px;
+	margin-top: -10px;
+}
+.btnAnuncieGratis{
+    border:none;
+    height:69px;
+ 	background: none !important;
+    margin-top:-30px;
+}
+.btnAnuncieGratis img{
+	margin-top: -10px;
+}
+.btnPlanoCompleto{
+    border:none;
+    height:69px;
+    background: none !important;
+    margin-top:-30px;
+}
+.btnPlanoCompleto img{
+	margin-top: -10px;
+	margin-left: -8px;
+ }
+
+.btnPlanoMaster{
+    border:none;
+    height:69px;
+    margin-top:-30px;
+    background: none !important;
+    margin-bottom:10px;
+}
+.btnPlanoMaster img{
+	margin-top: -15px;
+	margin-right: -10px;
+}
+
+.footerDescribe{
+    font-size:13px; text-align:justify; margin-top:20px !important;
+    color:#333;
+}
+.beneficiosBeemoveis{
+margin-bottom:10px;
+}
+.beneficiosBeemoveis img{
+    margin-right:20px;
+}
+.beneficiosBeemoveis h2{
+    color:#27ae60;
+    margin-left:50px !important;
+    font-size:20px;
+}
+.beneficiosBeemoveis h1{
+    color:#12549e;
+    margin-left:50px !important;
+    font-size:20px;
+}
+.beneficiosBeemoveis h3{
+    color:#27ae60;
+    margin-left:50px !important;
+    float:right;
+    margin-top:-5px;
+}
+.beneficiosBeemoveis h6{
+    color:red;
+    float:left;
+    margin-left:10px;
+    margin-top:2px;
+}
+.titleServico{
+    margin-top:-20px !important;
+}
+.userlogadoText{
+    color:#fff;
+    text-align:center;
+}
+.btnChat{
+    color:#000;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.testemunhasPlanos{
+
+}
+.testemunhasPlanos .nome{
+    font-size:17px;
+}
+.testemunhasPlanos span{
+    font-size:13px;
+}
+.testemunhasPlanos .nuvem{
+    margin-top:-20px;
+    margin-bottom:10px;
+}
+.headerViewHome{
+     	 padding-right:0px !important;
+
+}
+#ulHome{
+    padding:0px !important;
+}
+#ulHome li{
+    padding:0px !important;
+}
+.asideLeft{
+	 padding-left:0px !important;
+	 padding-right:0px solid !important;
+}
+.asideRight{
+
+}
+.voltarResultado{
+	background-image: url("../img/backHome.jpg") !important; 
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 20px;
+
+	text-align: center;
+}
+.btnVoltar{
+	padding: 10px;
+ text-align: center;
+	background: #e5af21;
+	width: 20%;
+	border-radius: 3px;
+	float: left;
+}
+.styleBtnVoltar{
+	color: #fff;
+	font-size: 14px;
+}
+.containerDestaque{
+
+}
+.buscarImoveil{
+	background: #e5af21;
+	border-radius: 6px; margin-top: 5px;
+	padding:5px;
+	height: 110px;
+
+}
+.titleBuscaTop{
+	font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	float: left;font-weight: bold;
+	text-align: center;
+
+}
+
+.checkboxOptionTop{
+	font-size: 12px;
+	margin-top: -5px;
+}
+.checkboxOptionTopTew{
+    font-size: 12px;
+    color:#818181;
+    margin-bottom:10px;
+}
+.boxSelectTopOne select{
+	height:30px;
+	margin-bottom: 5px;
+}
+.boxSelectTopOne{
+ 
+	padding-left: 0px !important;
+	padding-right: 5px !important;
+}
+.boxSelectTopTwe select{
+    height:30px;
+	margin-bottom: 5px;
+}
+.boxSelectTopTwe{
+padding-left: 0px !important;
+	padding-right: 5px !important;
+	margin-top:10px;
+	font-weight:100 !important;
+}
+
+.enviarBuscartop{
+	background: #151515;
+	width: 16%;
+	float: right;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 28px;
+	text-align: center;
+	padding-bottom: 25px;
+	font-size: 17px;
+	color: #fff;
+	border-radius:8px;
+ 
+
+}
+.containerViewMovel{
+	background: #fff;
+	border-radius: 7px; 
+	margin-top: 6px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	padding-top: 10px;
+}
+.descricaoProject{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.containerFooter{
+
+	margin-top: 10px;
+}
+.footerLeft{
+	 
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.footerRight{
+	 
+}
+.infoHome{
+
+}
+
+.leftInformacaoImovel ul{
+    list-style-image: url('../img/ponto.png');
+}
+.leftInformacaoImovel ul li{
+	font-size: 14.5px;
+	color: #fff;
+	margin-bottom: 6px;
+}
+.donoTitle{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.iniciConverse{
+	text-align: center;
+	margin-top: 10px;
+}
+.iniciarBtn{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: -20px;
+}
+.facebookImovel{
+	background: #fff;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+
+	border-radius: 5px;
+
+}
+.facebo{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	border-radius: 5px !important;
+}
+.footerRights{
+	background: #e5af21;
+	border-radius: 5px !important;
+}
+ 
+.informacaoImovel{
+	background: #fff;
+ 		margin-bottom: 15px;
+	border-radius: 5px;
+	margin-top: -9px;
+
+	height:190px;
+}
+.telefonebtn{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	color: #000;
+	margin-top: 5px;
+}
+.imprimiricon h5{
+		font-size: 16px;
+font-weight: bold;
+	font-family: arial;
+	margin-top: 20px;
+}
+.imprimiricon span{
+		font-size: 13px;
+		font-weight: bold;
+		color: #999;
+			margin-top: 20px;
+}
+.imprimiricon{
+	padding-left: 0px !important;
+}
+.alertImoveisTwe{
+	 margin-top: -5px;
+	 padding-bottom: 20px;
+	 background: #e5af21; 
+	 background-position: center top;
+	 font-size: 20px;
+	 color:#333;
+	 font-weight: bold; 
+	 text-align: center;
+	 padding-top:20px;
+	 font-family:arial;
+	 color:#2b2b2c;
+	 font-weight: 100;
+	 padding-right: 10px !important;
+	 border-radius: 6px;
+	 border-top:3px solid #ffe461;
+}
+.ultimaDeinfo{
+	background: rgba(000,000,000,0.5);
+	padding-top: 10px;
+	padding-bottom: 12px;
+	margin-top: -4px;
+	border-left: 3px solid #e1e3e6;
+	border-radius: 5px;
+}
+.ultimaDeinfo h5{
+	color: #fff;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.ultimaDeinfo button{
+ padding-top: 44px !important;
+  padding-bottom: 44px !important;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.impre{
+    margin-right:5px;
+    margin-top: 20px;
+}
+.btnImov{
+	background: #2d2d2d;
+	color: #fff;
+	border:1px solid #fff;
+}
+.btnImov:hover{
+	background: #181818;
+	border:1px solid #333;
+}
+.jssort01 .c {
+	border:0px solid red!important;
+}
+.c img {border:2px solid #e5af21!important;}
+.jssort01{
+	background: #fff;
+}
+.jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
+                               {
+                               position: absolute;
+                               cursor: pointer;
+                               display: block;
+                               background: url(../img/a17.png) no-repeat;
+                               overflow:hidden;
+                               }
+                               .jssora05l { background-position: -10px -40px; }
+                               .jssora05r { background-position: -70px -40px; }
+                               .jssora05l:hover { background-position: -130px -40px; }
+                               .jssora05r:hover { background-position: -190px -40px; }
+                               .jssora05ldn { background-position: -250px -40px; }
+                               .jssora05rdn { background-position: -310px -40px; }
+                                .jssort01 .w {
+                                   position: absolute;
+                                   top: 0px;
+                                   left: 0px;
+                                   width: 100%;
+                                   height: 100%;
+                                   }
+
+                                   .jssort01 .c {
+                                   position: absolute;
+                                   top: 0px;
+                                   left: 0px;
+                                   width: 68px;
+                                   height: 68px;
+                                   border: #000 2px solid;
+                                   }
+
+                                   .jssort01 .p:hover .c, .jssort01 .pav:hover .c, .jssort01 .pav .c {
+                                   background: url(../img/t01.png) center center;
+                                   border-width: 0px;
+                                   top: 2px;
+                                   left: 2px;
+                                   width: 68px;
+                                   height: 68px;
+                                   }
+
+                                   .jssort01 .p:hover .c, .jssort01 .pav:hover .c {
+                                   top: 0px;
+                                   left: 0px;
+                                   width: 70px;
+                                   height: 70px;
+                                   border: #fff 1px solid;
+                                   }
+.enderecoCasa{
+	font-size:19px; text-align:center; margin-top:10px;
+}
+.listagemDeImoveis{
+	padding: 0px !important;
+}
+.estrelaFavorito{ 
+	left: 23px;
+	top: 5px;
+	position: absolute;
+	background-image: url("../img/iconAtivo.png") !important; 
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 28px;
+}
+.estrelaFavoritoInativo{ 
+	background-image: url("../img/iconInativo.png") !important; 
+}
+.inforCheck{
+	padding-top:10px;
+}
+.numvemBack{
+	background: #f0f0f0;
+	padding: 10px;
+	font-family: tahoma;
+	 margin-bottom: 10px;
+	font-size: 15px;
+}
+#triangle-bottomleft {
+	width: 0;
+	height: 0;
+	border-bottom: 20px solid #f0f0f0;
+	border-right: 20px solid transparent;
+	position: absolute;
+	top:-15px;
+	left: 50px;
+}
+.headerFinal{
+
+}
+.headerFinalTwe{
+
+}
+.centerFinal{
+
+}
+.centerFinalTwe{
+margin-bottom: -15px;
+
+}
+
+.footerFinal{
+
+}
+
+.footerFinalTwe{
+}
+.containerView{
+    margin-bottom:5px;
+}
+.buscarMovel{
+background:#e5af21;
+padding-top:7.5px;
+padding-bottom:7.5px;
+margin-top:5px;
+border-radius:5px;
+}
+.selectBusca{
+
+}
+.selectBuscaChck{
+}
+.botaoBuscar{
+    background:#333;
+    font-size:17px;
+    color:#fff;
+    text-align:center;
+    padding-top:22px;
+    padding-bottom:22px;
+    border-radius:5px;
+}
+.selectBusca select{
+    height:27px;
+    margin-top:5px;
+}
+.videoYoutube{
+    margin-top:30px;
+}
+.containerCenter{
+    background:#fff;
+    border-radius:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-image: url("../img/tes.png") !important;
+    background-repeat: no-repeat;
+    background-position:right bottom;
+}
+
+.containerCenter form .col-xs-6{
+float:none !important;
+}
+.containerCenter form .col-xs-4{
+float:none !important;
+}
+
+.containerCenter form button{
+    background:#e5af21;
+    margin-top:20px;
+}
+.paginacao{
+    padding-top:10px;
+    padding-right:0px !important;
+    padding-left:0px !important;
+}
+.paginacao p{
+    margin-top:-25px;
+    margin-right:160px;
+}
+.error404{
+    background:#fff;
+}
+.error404 span{
+    color:#e5af21;
+}
+.error404 a {
+    background:#e5af21 !important;
+    color:#333;
+    border:1px solid #fff;
+}
+.error404 img {
+    margin-top:-50px;
+    margin-bottom:30px;
+}
+.leftInformacaoImovel{
+    background-image: url("../img/backHome.jpg") !important;
+    border-radius:5px;
+    padding-top:5px !important;
+    padding-bottom:1px !important;
+}
+.tabelasdeInofrmacao{
+border-radius:5px;
+}
+.conversaDono{
+ background-image: url("../img/backHome.jpg") !important;
+    border-radius:5px;
+    padding-top:0px;
+    padding-bottom:8px;
+}
+.pgwSlideshow img{
+	margin-left: 30px !important;
+ 
+}
+.conversaDono input{
+    margin-bottom:5px;
+}
+.checkboxInofrmacao{
+border-radius:5px;
+background:#fff;
+padding-bottom:8px;
+}
+.facebookCurti{
+
+}
+.facebookCurtid{
+    background:#fff;
+    border-radius:5px;
+    padding-top:40px;
+    padding-bottom:45px;
+    margin-top:6px;
+}
+.atencaoInfor{
+    margin-top:10px;
+}
+
+.minhatura{
+    border:2px solid red;
+}
+.pgwSlideshow, .ps-list{
+	box-shadow:none !important;
+	border:none !important;
+	background:#fff !important;
+}
+.chechout h3{
+		border-bottom: 1px solid #E5AF21;
+	border-left: 1px solid #E5AF21;
+	text-align: left;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+.formPagamento {
+	height: 230px;
+	margin-top: 10px;
+}
+.formPagamento img{
+	width:200px; 
+	border-radius: 5px;
+	border: 1px solid #333;
+	text-align: center;
+	
+}
+.cartao{
+	padding: 10px 10px 10px 4px !important;
+	border-radius:10px;
+	border: 1px solid #e5af21; 
+}
+
+.cartao p {
+	font-size:20px; 
+	margin-top:10px;
+	text-align: center;
+}
+
+.planoEscolhido{
+	 
+}
+.escolhido{ 
+	margin-bottom: 10px;
+}
+.textMarcktin{
+	margin-top:20px !important; 
+	text-align: center;
+}
+.titleplano{
+	font-size: 19px;
+	text-align: justify;
+}
+
+.planosOferecer{
+background:  #EAE9E9;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+.planosOferecer p{
+	text-align: justify;
+}
+.planosOferecer .titleplano{
+	text-align: justify;
+}
+.addPlano {
+	background: #e5af21 !important;
+	 
+}
+.imgEscolhido{
+	padding: 5px;
+}
+.planoEscolhidoEspeci, .planoEscolhido{
+	margin-bottom: 10px;
+}
+.escolhido h3{
+	border-bottom: 1px solid #E5AF21;
+	border-left: 1px solid #E5AF21;
+	text-align: left;
+	padding-left: 5px;
+}
+.tabelaDoProduto thead{
+	background: #E5AF21;
+}
+.valorTolta{
+	background: #E5AF21;
+}
+.fotoProduto{
+	margin-right: 10px;
+}
+#cupomdesconto{
+	width: 50%;
+	padding: 0px !important;
+	margin:0px !important;
+	padding-left: 10px !important;
+}
+.apolicarCupom{
+	background: #E5AF21;
+	margin-left: 5px;
+}
+.bandeirasCartao{
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+}
+.dataValida{
+	margin-left: 15px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+.gerarBoleto{
+	background: #E5AF21;
+}
+.btnEncontrar button{
+background: none !important;
+border:none;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #555;
+    background-color:#E1E3E6 !important;
+}
+.dropdown .open{
+	background-color:#E1E3E6 !important;
+}
+.containerPainel{
+	background: #fff;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.containerPainel h1{
+	font-size: 19px; 
+	text-align: center;
+}
+.containerPainel thead{
+	background: #999;
+	color: #fff;
+}
+.containerPainel tbody{
+	background: #E6E6E6;
+
+}
+.tab-pane{
+
+}
+.containerPainel thead tr{ 
+	margin-bottom: 5px !important;
+	border-bottom: 2px solid #fff !important;
+}
+.menutopPainel{
+	background-image: url("../img/backHome.jpg") !important; 
+	height: 70px;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 100px !important;
+}
+
+.menutopPainel li{
+	margin-left: 50px;
+}
+.menutopPainel li:hover{
+	background: none !important;
+}
+.menutopPainel li a{ 
+	color: #fff;
+}
+
+.homeClass{
+	background: #E5AF21;
+	color: #000;
+	height: 60px;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 5px;
+	padding-top: 20px;
+
+}
