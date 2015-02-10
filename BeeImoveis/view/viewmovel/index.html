@@ -19,12 +19,12 @@
         <script type="text/javascript" src="../home/js/jssor.slider.js"></script>
         <script type="text/javascript" src="../home/js/slider.js"></script>
         <meta http-equiv="content-type" content="text/html;charset=utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-<meta name="description" content="PgwSlideshow is a responsive and lightweight Gallery / Slideshow / Carousel plugin for jQuery and Zepto">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta http-equiv="x-dns-prefetch-control" content="on">
-<link rel="stylesheet" type="text/css" href="../home/css/slider1.csss"/>
-<link rel="stylesheet" type="text/css" href="../home/css/slider2.css"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <meta name="description" content="PgwSlideshow is a responsive and lightweight Gallery / Slideshow / Carousel plugin for jQuery and Zepto">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="x-dns-prefetch-control" content="on">
+        <link rel="stylesheet" type="text/css" href="../home/css/slider1.csss"/>
+        <link rel="stylesheet" type="text/css" href="../home/css/slider2.css"/>
 </head>
 
 <body> <!-- Inicio de body -->
@@ -41,20 +41,21 @@
                 </div>
             </div>
             <div class = "headerFinalTwe col-xs-12 col-sm-12 col-md-9">
-                <div class="menuRightTwe  col-sm-12 col-md-12">
-                    <ul class="optioSalesUL">
+                <div class = "menuRight col-xs-12 col-sm-12 col-md-12 ">
 
+                    <ul class="optioSalesUL">
                         <li class="optioSalesLiMain .col-md-5">
-                            <a class="mainSubPropriet">Anunciar</a>
-                                <span class="mainSub"><br>
+                            <a href = "#" class="mainSubPropriet ">Anunciar
+                                <span class="mainSub">
                                 meu Imóvel
                                 </span>
+                            </a>
                         </li>
 
                         <li class="optioSalesLi">
                             <a href="#">
-                                Comprar
-                                  <span class="mainSob"><br>
+                                Comparar
+                                  <span class="mainSob">
                                      Imóveis
                                   </span>
                             </a>
@@ -63,7 +64,7 @@
                         <li class="optioSalesLi retirarLi">
                             <a href="#">
                                 Imóveis
-                                    <span class="mainSob"><br>
+                                    <span class="mainSob">
                                        a Venda
                                     </span>
                             </a>
@@ -72,7 +73,7 @@
                         <li class="optioSalesLi retirarLi">
                             <a href="#">
                                 Imóveis
-                                    <span class="mainSob"><br>
+                                    <span class="mainSob">
                                         para Alugar
                                     </span>
                             </a>
@@ -81,16 +82,16 @@
                         <li class="optioSalesLi retirarLi">
                             <a href="#">
                                 Imóveis
-                                    <span class="mainSob"><br>
+                                    <span class="mainSob">
                                         Comerciais
                                     </span>
                             </a>
                         </li>
 
                         <li class="optioSalesLi">
-                            <a href="#">
+                            <a href="../planosevalores/index.html">
                                 Planos
-                                    <span class="mainSob"><br>
+                                    <span class="mainSob">
                                       e valores
                                     </span>
                             </a>
@@ -99,7 +100,7 @@
                         <li class="optioSalesLi">
                             <a href="#">
                                 Fale
-                                    <span class="mainSob"><br>
+                                    <span class="mainSob">
                                        Conosco
                                     </span>
                             </a>
@@ -449,54 +450,6 @@
 <script type="text/javascript" src="http://s1c.pagawatic.com/js/jquery-pgwjs-pgwmenu-rainbow-v226.js"></script>
 <script type="text/javascript" src="http://s1c.pagawatic.com/js/pgwslideshow-v226.js"></script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script type="text/javascript">
-$('.pgwMenu').pgwMenu();
-$('a[data-goto]').click(function() { pgwjs.goTo($(this).attr('data-goto')); });
-
-
-var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow();
-
-function reloadSlideshow() {
-    var newConfig = {};
-
-    var style = $('input[name="style"]:checked').val();
-    if (style == 'light') { newConfig.mainClassName = 'pgwSlideshowLight'; }
-
-    var listPosition = $('input[name="listPosition"]:checked').val();
-    if (listPosition == 'none') { newConfig.displayList = false; } else { newConfig.listPosition = listPosition; }
-
-    newConfig.transitionEffect = $('input[name="transitionEffect"]:checked').val();
-
-    if ($('#displayList:checked').val() == 'true') {
-                newConfig.displayList = true;
-        } else {
-        newConfig.displayList = false;
-    }
-
-    if ($('#displayControls:checked').val() == 'true') {
-        newConfig.displayControls = true;
-    } else {
-        newConfig.displayControls = false;
-    }
-
-    if ($('#maxHeight:checked').val() == 'true') {
-                newConfig.maxHeight = 450;
-        }
-
-    pgwSlideshow.reload(newConfig);
-}
-
-$('.slideshowConfig input').bind('change', function() {
-    reloadSlideshow()
-});
-
-
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-3998345-8', 'pgwjs.com');
-ga('send', 'pageview');
-</script>
+<script  src="../home/js/slider2.js"></script>
 </body><!-- Fim de body -->
 </html>
