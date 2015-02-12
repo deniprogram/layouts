@@ -1,6 +1,11 @@
 $(function() {
 
- $('#datadeValidacao').datepicker();
+
+    $('.areaUtil').tooltip();
+    $('.areaTotal').tooltip();
+    $('.areaTerreno').tooltip();
+
+    $('#datadeValidacao').datepicker();
 
     $('.cartaoForma').hide();
     $('.gerarBoleto').hide();
@@ -25,6 +30,16 @@ $(function() {
     $(".viewMovel").click(function(){
         $(this).toggleClass("selecionado");
     });
+
+    $(".optionPlano").click(function(){
+            $(this).toggleClass("aptionPlanoCerto");
+            $(".marcado").fadeIn();
+     });
+
+     $(".optionPlano2").click(function(){
+                 $(this).toggleClass("aptionPlanoCerto");
+                 $(".marcado2").fadeIn();
+          });
 
     $(".comparacaoImovelbtn").click(function(){
              tabela.fadeIn(1000);
