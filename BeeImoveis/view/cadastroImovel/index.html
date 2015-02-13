@@ -266,440 +266,488 @@
                             Cadastro de Imovel
                         </h1>
 
-                        <form class="form-horizontal">
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Tipo de anuncio</label>
-                                <div class="col-sm-8">
-                                    <select class="form-control">
-                                        <option>Venda</option>
-                                        <option>Aluguel</option>
-                                        <option>Lançamento</option>
-                                        <option>Temporada</option>
-                                    </select>
+
+
+                        <form id="myWizard" type="get" action="" class="form-horizontal">
+                            <section class="step" data-step-title="Dados do anûncio">
+
+                                <div class="form-group avancaorbtn">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Tipo imovel</label>
+                                    <div class="col-sm-8">
+                                        <select multiple class="form-control">
+                                            <option>Andar</option>
+                                            <option>Flat</option>
+                                            <option>Apartamento</option>
+                                            <option>Apartamento mobiliado</option>
+                                            <option>Casa</option>
+                                            <option>Casa mobiliada</option>
+                                            <option>Chacara</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Tipo imovel</label>
-                                <div class="col-sm-8">
-                                    <select class="form-control">
-                                        <option>Andar</option>
-                                        <option>Flat</option>
-                                        <option>Apartamento</option>
-                                        <option>Apartamento mobiliado</option>
-                                        <option>Casa</option>
-                                        <option>Casa mobiliada</option>
-                                        <option>Chacara</option>
-                                        <option>apartamento mobiliado</option>
-                                        <option>apartamento mobiliado</option>
-                                        <option>apartamento mobiliado</option>
 
-                                    </select>
+
+
+                                <div class="form-group avancaorbtn avancaorbtn2">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Estado (UF)</label>
+                                    <div class="col-sm-8">
+                                        <select multiple class="form-control">
+                                            <option>Andar</option>
+                                            <option>Flat</option>
+                                            <option>Apartamento</option>
+                                            <option>Apartamento mobiliado</option>
+                                            <option>Casa</option>
+                                            <option>Casa mobiliada</option>
+                                            <option>Chacara</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Inscricao IPTU : </label>
-                                <div class="col-sm-8">
-                                    <input type="number" class="form-control" id="" placeholder="Inscricao IPTU">
+
+
+                                <div class="form-group avancaorbtn avancaorbtn2">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Cidade</label>
+                                    <div class="col-sm-8">
+                                        <select multiple class="form-control">
+                                            <option>Andar</option>
+                                            <option>Flat</option>
+                                            <option>Apartamento</option>
+                                            <option>Apartamento mobiliado</option>
+                                            <option>Casa</option>
+                                            <option>Casa mobiliada</option>
+                                            <option>Chacara</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <h1>
-                                Dados do imóvel
-                            </h1>
 
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Situação do imovel</label>
-                                <div class="col-sm-8">
-                                    <select class="form-control">
-                                        <option>Imovel pronto</option>
-                                        <option>Em construcao</option>
-                                    </select>
+
+                                <div class="form-group avancaorbtn avancaorbtn2">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Bairro</label>
+                                    <div class="col-sm-8">
+                                        <select  multiple class="form-control">
+                                            <option>Andar</option>
+                                            <option>Flat</option>
+                                            <option>Apartamento</option>
+                                            <option>Apartamento mobiliado</option>
+                                            <option>Casa</option>
+                                            <option>Casa mobiliada</option>
+                                            <option>Chacara</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Valor do imóvel:</label>
-                                <div class="col-sm-8">
-                                    <input type="number" class="form-control" id="valorImovel" placeholder="Valor do imóvel">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Valor do condominio:</label>
-                                <div class="col-sm-8">
-                                    <input type="number" class="form-control" id="valorImovel" placeholder="Valor do condominio">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Aceita Financiamento: </label>
-                                <div class="col-sm-8">
-                                    <label class="radio-inline">
-                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Sim
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> Não
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Aceitar Imóvel de menor valor: </label>
-                                <div class="col-sm-8">
-                                    <label class="radio-inline">
-                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Sim
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> Não
-                                    </label>
-                                </div>
-                            </div>
-
-                            <h1>
-                                Quantidade
-                            </h1>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Quartos:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control" id="" placeholder="Quartos">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Suites:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control" id="" placeholder="Suites">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Banheiros:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control" id="" placeholder="Banheiros">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Lavabos:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control" id="" placeholder="Lavabos">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Garagem:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control" id="" placeholder="Garagem">
-                                </div>
-                            </div>
 
 
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Elevador:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control" id="" placeholder="Elevador">
-                                </div>
-                            </div>
 
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Andar:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control" id="" placeholder="Andar">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Andares:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control" id="" placeholder="Andares">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label ">Area Util:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control areaUtil" id="" placeholder="Area Util" data-toggle="tooltip" data-placement="right" title="Em metros quadrados">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Area Total:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control areaTotal" id="" placeholder="Area Total" data-toggle="tooltip" data-placement="right" title="Em metros quadrados">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Area Terreno:</label>
-                                <div class="col-sm-3">
-                                    <input type="number" class="form-control areaTerreno" id="" placeholder="Area Terreno" data-toggle="tooltip" data-placement="right" title="Em metros quadrados">
-                                </div>
-                            </div>
-
-                            <h1>
-                                Descricao do imovel
-                            </h1>
-
-                            <div class="col-xs-12 col-sm-12 col-md-12 descricaoImovel">
+                            </section>
+                            <section class="step" data-step-title="Dados do Imóvel">
                                 <div class="form-group">
-                                <div class="col-xs-3 col-sm-3 col-md-3 ">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Aquecimento Solar
-                                        </label>
+                                    <label for="inputEmail3" class="col-sm-2 control-label">CEP: </label>
+                                    <div class="col-sm-8">
+                                        <input type="number" class="form-control" id="" placeholder="CEP">
                                     </div>
+                                </div>
 
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Ar condicionado
-                                        </label>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Número: </label>
+                                    <div class="col-sm-8">
+                                        <input type="number" class="form-control" id="" placeholder="Número">
                                     </div>
+                                </div>
 
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Área Lazer
-                                        </label>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Valor do aluguel:</label>
+                                    <div class="col-sm-8">
+                                        <input type="number" class="form-control" id="valorImovel" placeholder="Valor do imóvel">
                                     </div>
+                                </div>
 
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Área servico
-                                        </label>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Valor do imóvel:</label>
+                                    <div class="col-sm-8">
+                                        <input type="number" class="form-control" id="valorImovel" placeholder="Valor do imóvel">
                                     </div>
+                                </div>
 
-
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Brinquedoteca
-                                        </label>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Valor do condominio:</label>
+                                    <div class="col-sm-8">
+                                        <input type="number" class="form-control" id="valorImovel" placeholder="Valor do condominio">
                                     </div>
+                                </div>
 
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Churrasqueira
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Aceita Financiamento: </label>
+                                    <div class="col-sm-8">
+                                        <label class="radio-inline">
+                                            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Sim
                                         </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Circuito TV
-                                        </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Cobertura Coletiva
+                                        <label class="radio-inline">
+                                            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> Não
                                         </label>
                                     </div>
                                 </div>
 
-                                <div class="col-xs-3 col-sm-3 col-md-3 ">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Armarios na cozinha
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Aceitar Imóvel de menor valor: </label>
+                                    <div class="col-sm-8">
+                                        <label class="radio-inline">
+                                            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Sim
                                         </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Armário nos quartos
-                                        </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Despensa
-                                        </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Escritório______
-                                        </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Wi-Fi______
-                                        </label>
-                                    </div>
-
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Gas encanado
-                                        </label>
-                                    </div>
-
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Gerador_____
-                                        </label>
-                                    </div>
-
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Guarita______
+                                        <label class="radio-inline">
+                                            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> Não
                                         </label>
                                     </div>
                                 </div>
 
-                                <div class="col-xs-3 col-sm-3 col-md-3 ">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Interfone
-                                        </label>
-                                    </div>
-
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Jardim____
-                                        </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Lazer no térreo
-                                        </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Piscina
-                                        </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Playground___
-                                        </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Portão eletronico
-                                        </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Quadra de esportes
-                                        </label>
-                                    </div>
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Academia
-                                        </label>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Situação do imovel</label>
+                                    <div class="col-sm-8">
+                                        <select class="form-control">
+                                            <option>Imovel pronto</option>
+                                            <option>Em construcao</option>
+                                        </select>
                                     </div>
                                 </div>
 
-                                <div class="col-xs-3 col-sm-3 col-md-3 ">
-
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Salao de Festas
-                                        </label>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Quartos:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control" id="" placeholder="Quartos">
                                     </div>
+                                </div>
 
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Espaço Gourmet
-                                        </label>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Suites:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control" id="" placeholder="Suites">
                                     </div>
+                                </div>
 
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Sauna_____
-                                        </label>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Banheiros:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control" id="" placeholder="Banheiros">
                                     </div>
+                                </div>
 
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> SPA_____
-                                        </label>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Lavabos:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control" id="" placeholder="Lavabos">
                                     </div>
+                                </div>
 
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Varanda____
-                                        </label>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Garagem:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control" id="" placeholder="Garagem">
                                     </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Elevador:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control" id="" placeholder="Elevador">
                                     </div>
-                            </div>
-                            </div>
-
-
-                            <div class="form-group">
-
-                                <label for="inputEmail3" class="col-sm-2 control-label">Posição do sol:</label>
-                                <div class="col-sm-8">
-                                    <select class="form-control">
-                                        <option>Nascente</option>
-                                        <option>Perpendicular</option>
-                                        <option>Poente</option>
-                                    </select>
-                                </div>
                                 </div>
 
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Descricao do imovel:</label>
-                                <div class="col-sm-8">
-                                    <textarea class="form-control" rows="13" placeholder="Descricao do imóvel"></textarea>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Andar:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control" id="" placeholder="Andar">
+                                    </div>
                                 </div>
+
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Andares:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control" id="" placeholder="Andares">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label ">Area Util:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control areaUtil" id="" placeholder="Area Util" data-toggle="tooltip" data-placement="right" title="Em metros quadrados">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Area Total:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control areaTotal" id="" placeholder="Area Total" data-toggle="tooltip" data-placement="right" title="Em metros quadrados">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Area Terreno:</label>
+                                    <div class="col-sm-3">
+                                        <input type="number" class="form-control areaTerreno" id="" placeholder="Area Terreno" data-toggle="tooltip" data-placement="right" title="Em metros quadrados">
+                                    </div>
                                 </div>
 
 
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Meu Telefone: </label>
-                                <div class="col-sm-8">
-                                    <input type="number" class="form-control" id="" placeholder="Meu Telefone">
+
+
+                            </section>
+
+                            <section class="step" data-step-title="Descricao do imovel">
+                                <div class="col-xs-12 col-sm-12 col-md-12 descricaoImovel descricaoImovel2">
+                                    <div class="form-group">
+                                        <div class="col-xs-3 col-sm-3 col-md-3 ">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Aquecimento Solar
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Ar condicionado
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Área Lazer
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Área servico
+                                                </label>
+                                            </div>
+
+
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Brinquedoteca
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Churrasqueira
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Circuito TV
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Cobertura Coletiva
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-3 col-sm-3 col-md-3 ">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Armarios na cozinha
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Armário nos quartos
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Despensa
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Escritório &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Wi-Fi &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Gas encanado
+                                                </label>
+                                            </div>
+
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Gerador &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Guarita &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-3 col-sm-3 col-md-3 ">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Interfone
+                                                </label>
+                                            </div>
+
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Jardim &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;.
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Lazer no térreo
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Piscina
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Playground &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Portão eletronico
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Quadra de esportes
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Academia
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-3 col-sm-3 col-md-3 ">
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Salao de Festas
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Espaço Gourmet
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Sauna &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> SPA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Varanda &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Publicar meu telefone: </label>
-                                <div class="col-sm-8">
-                                    <label class="radio-inline">
-                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Sim
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> Não
-                                    </label>
+
+                                <div class="form-group">
+
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Posição do sol:</label>
+                                    <div class="col-sm-8">
+                                        <select class="form-control">
+                                            <option>Nascente</option>
+                                            <option>Perpendicular</option>
+                                            <option>Poente</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
 
 
-                            <h1>
-                                Dados de localização
-                            </h1>
-
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">CEP: </label>
-                                <div class="col-sm-8">
-                                    <input type="number" class="form-control" id="" placeholder="CEP">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Descricao do imovel:</label>
+                                    <div class="col-sm-8">
+                                        <textarea class="form-control" rows="13" placeholder="Descricao do imóvel"></textarea>
+                                    </div>
                                 </div>
-                            </div>
+                            </section>
 
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Número: </label>
-                                <div class="col-sm-8">
-                                    <input type="number" class="form-control" id="" placeholder="Número">
+                            <section class="step" data-step-title="Fotos e Vídeos">
+                                <div class="control-group">
+                                    <label class="control-label" for="inputFirstname">Firstname</label>
+                                    <div class="controls">
+                                        <input type="text" id="inputFirstname" placeholder="Firstname" class="input-xlarge">
+                                    </div>
                                 </div>
-                            </div>
-
-                                <button class="btn">Cadastrar Imóvel</button>
-
+                                <div class="control-group">
+                                    <label class="control-label" for="inputCity">City</label>
+                                    <div class="controls">
+                                        <input type="text" id="inputCity" placeholder="City" class="input-xlarge">
+                                    </div>
+                                </div>
+                            </section>
                         </form>
 
+                        <script src="http://code.jquery.com/jquery-latest.js"></script>
+                        <script src="../home/js/jquery.easyWizard.js"></script>
 
+
+                        <script>
+                            $('#myWizard').easyWizard();
+                        </script>
 
 
                     </div>

@@ -1,12 +1,6 @@
 $(function() {
 
 
-    $(".avancaorbtn").click(function(){
-        $(this).next().fadeIn();
-    });
-
-    $('.next').html('Próximo');
-    $('.prev').html('Anterior');
     $('.areaUtil').tooltip();
     $('.areaTotal').tooltip();
     $('.areaTerreno').tooltip();
@@ -51,32 +45,7 @@ $(function() {
              tabela.fadeIn(1000);
     });
 
-    $( "#slider-range-min" ).slider({
-      range: "min",
-      value: 0,
-      min: 1,
-      max: 6000,
-      slide: function( event, ui ) {
-        $( "#amount" ).val( "R$:" + ui.value+",00" );
-      }
-    });
-
-    $( "#amount" ).val( "R$:" + $( "#slider-range-min" ).slider( "value" ) );
-
-    $('#cpf').mask('999.999.999-99');
-    $('#nomeCompleto').popover('hide')
-    $('#cpf').popover('hide')
-    $('#senha').popover('hide')
-    $('#confirmaSenha').popover('hide')
-
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-
+    
     
   });
 

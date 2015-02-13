@@ -1194,11 +1194,18 @@ margin-bottom: -15px;
     border-radius:5px;
     padding-top:10px;
     padding-bottom:10px;
-    background-image: url("../img/tes.png") !important;
+
     background-repeat: no-repeat;
     background-position:right bottom;
 }
-
+.easyWizardSteps {list-style:none;width:100%;overflow:hidden;margin:0;padding:0;border-bottom:1px solid #ccc;margin-bottom:20px}
+.easyWizardSteps li {font-size:18px;display:inline-block;padding:10px;color:#B0B1B3;margin-right:20px;}
+.easyWizardSteps li span {font-size:24px}
+.easyWizardSteps li.current {color:#000}
+.easyWizardButtons {overflow:hidden;padding:10px;}
+.easyWizardButtons button, .easyWizardButtons .submit {cursor:pointer}
+.easyWizardButtons .prev {float:left}
+.easyWizardButtons .next, .easyWizardButtons .submit {float:right}
 .containerCenter form .col-xs-6{
     float:none !important;
 }
@@ -1209,6 +1216,13 @@ margin-bottom: -15px;
 .containerCenter form button{
     background:#e5af21;
     margin-top:20px;
+}
+.step{
+    height:auto;
+}
+.submit, .next, .prev{
+    border-radius:5px;
+    border:0px solid !important;
 }
 .paginacao{
     padding-top:10px;
@@ -1329,12 +1343,10 @@ border-radius:5px;
 	 
 }
 .chechout{
-min-height:1205px;
+
 }
 .escolhido{ 
 	margin-bottom: 10px;
-	min-height:1205px;
-
 }
 .textMarcktin{
 	margin-top:20px !important; 
@@ -1404,6 +1416,7 @@ min-height:1205px;
 }
 .gerarBoleto{
 	background: #E5AF21;
+	height:40px;
 }
 .btnEncontrar button{
     background: none !important;
@@ -1639,4 +1652,17 @@ padding-left:0px !important;
 .descriCampo{
     margin-top:10px !important;
 
+}
+.avancaorbtn a{
+color:#e5af21;
+margin-top:-10px;
+cursor:pointer;
+}
+.descricaoImovel2{
+    border:1px solid #e5af21;
+    margin-bottom:10px;
+}
+
+.avancaorbtn2{
+    display:none;
 }
