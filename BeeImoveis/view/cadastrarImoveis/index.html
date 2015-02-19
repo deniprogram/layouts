@@ -1,0 +1,924 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <title>BeeImoveiees</title> 
+         <meta charset="UTF-8">
+         <link href='../home/img/favicon.ico' rel='icon' type='image/x-icon'/>
+         <link rel="stylesheet" type="text/css" href="../../lib/bootstrap/css/bootstrap.min.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+         <link href="../home/css/style2.css" rel="stylesheet">
+         <link href="../../lib/jquery-ui-1.11.2.custom/jquery-ui.css" rel="stylesheet">
+         <script src="../../lib/jquery-ui-1.11.2.custom/external/jquery/jquery.js"></script>
+         <script src="../../lib/jquery-ui-1.11.2.custom/jquery-ui.js"></script>
+         <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+         <script src="../home/js/functionality.js"></script>
+</head>
+
+<body> <!-- Inicio de body -->
+    <div class="container"> <!-- Container Principal -->
+        <div class="row">   <!-- Row Principal -->
+
+            <div  class = "col-xs-12 col-sm-12 col-md-12 headerTop">  <!--  headerTop -->
+                <div class="row show-grid">
+                    <div  class="col-xs-12 col-sm-12 col-md-12 headerMenuTop">
+                        <nav class="navbar navbar-default">
+                            <div class="container">
+
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                        <span class="sr-only"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="../login/index.html">
+                                        <img width = "240"src="../home/img/logo.png" class  = "logo center-block">
+                                    </a>
+                                </div>
+
+
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav">
+
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle cidadeSelect" data-toggle="dropdown" role="button" aria-expanded="false">
+                                                Distrito federal
+                                                <span class="glyphicon glyphicon-menu-down"></span>
+                                            </a>
+
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="#">Teste</a></li>
+                                                <li><a href="#">Teste</a></li>
+                                                <li><a href="#">Teste</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Teste</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Teste</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class = "destaqueSeo">
+                                            <a href="#"><h2>Apartamentos Asa sul</h2></a>
+                                        </li>
+
+                                        <li class = "destaqueSeo">
+                                            <a href="#"><h2>Apartamentos Asa norte</h2></a>
+                                        </li>
+
+                                        <li class = "destaqueSeo">
+                                            <a href="#"><h2>Casas Asa sul</h2></a>
+                                        </li>
+
+                                        <li class = "destaqueSeo">
+                                            <a href="#"><h2>Casas Asa sul</h2></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div> <!-- Fim de headerTop -->
+
+            <div class = "lateralLeft col-xs-12 col-sm-4 col-md-3"> <!-- lateralLeft -->
+
+                <!-- Area de login -->
+                <div class = "loginMain col-xs-12 col-sm-12 col-md-12">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    <input type="password" class="form-control" id="indputEmail3" placeholder="Senha">
+                    <a class = "btn pull-left btn-link"  href="../cadastro/index.html"> Cadastre-se</a>
+                    <a href = "../paineladmin/index.html">
+                        <button class = "btn pull-right  col-xs-5 col-sm-6 col-md-6">Login</button>
+                    </a>
+                    <a class = "btn pull-right btn-link" >Esqueci minha senha</a>
+                </div>
+                <!-- Fim de area de login -->
+
+                <!-- Busca de Imovel -->
+                <div class = "buscarImovel col-xs-12 col-sm-12 col-md-12">
+                    <article>Busque seu Imóvel</article>
+                    <form class = "center-block">
+
+                        <select class="form-control">
+                            <option>Destrito Federal</option>
+                            <option>Cidade</option>
+                            <option>Cidade</option>
+                        </select>
+
+                        <select class="form-control">
+                            <option>Venda</option>
+                            <option>Cidade</option>
+                            <option>Cidade</option>
+                        </select>
+
+                        <select class="form-control">
+                            <option>Cidade</option>
+                            <option>Cidade</option>
+                            <option>Cidade</option>
+                        </select>
+
+                        <select class="form-control">
+                            <option>Bairro</option>
+                            <option>Cidade</option>
+                            <option>Cidade</option>
+                        </select>
+
+                        <select class="form-control">
+                            <option>Apartamento</option>
+                            <option>Cidade</option>
+                            <option>Cidade</option>
+                        </select>
+
+
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Somente Imóveis prontos
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Somente Imóveis em construção
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class = "checkboxdestaque">
+                                <input type="checkbox"> Somente Imóveis de particulares
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Aceitar Imóvel de menor valor
+                            </label>
+                        </div>
+
+                        <input class="span11 form-control" type="text" placeholder="Localização (Ex, Bloco)">
+
+                        <label class="checkboxOptionPrice">
+                            Preço até
+                        </label>
+
+                        <div id="slider-range-min" class="col-xs-12 col-sm-12 col-md-12">
+                        </div>
+
+                        <input type="text" class="span11 form-control" id="amount" readonly style="border:0; color:#000; font-weight:bold;">
+
+                        <div type = "submit" class="findProperty btnEncontrar">
+                            <button type = "submit">Encontrar Imóvel</button>
+                        </div>
+
+                    </form>
+                </div>
+                <!-- Fim de buscar meu imovel -->
+
+                <!-- Facebook  -->
+                <div class="facebookLike col-xs-12 col-sm-12 col-md-12 center-block">
+                    <iframe class = "center-block" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookDevelopers&amp;width=200&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:258px;" allowTransparency="true"></iframe>
+                </div>
+                <!-- Fim de facebook -->
+
+                <div class="alertImoveis col-xs-12 col-sm-12 col-md-12">
+                    <img class = "center-block"src = "../home/img/sino.png" />
+                    Receba alertas sobre o imóvel que procura
+                </div>
+
+            </div> <!--  Fim lateralLeft -->
+
+
+            <div class = "menuRight col-xs-12 col-sm-8 col-md-9 ">
+
+                <ul class="optioSalesUL">
+                    <li class="optioSalesLiMain .col-md-5">
+                        <a href = "#" class="mainSubPropriet ">Anunciar
+                                <span class="mainSub">
+                                meu Imóvel
+                                </span>
+                        </a>
+                    </li>
+
+                    <li class="optioSalesLi">
+                        <a href="#">
+                            Comparar
+                                  <span class="mainSob">
+                                     Imóveis
+                                  </span>
+                        </a>
+                    </li>
+
+                    <li class="optioSalesLi retirarLi">
+                        <a href="#">
+                            Imóveis
+                                    <span class="mainSob">
+                                       a Venda
+                                    </span>
+                        </a>
+                    </li>
+
+                    <li class="optioSalesLi retirarLi">
+                        <a href="#">
+                            Imóveis
+                                    <span class="mainSob">
+                                        para Alugar
+                                    </span>
+                        </a>
+                    </li>
+
+                    <li class="optioSalesLi retirarLi">
+                        <a href="#">
+                            Imóveis
+                                    <span class="mainSob">
+                                        Comerciais
+                                    </span>
+                        </a>
+                    </li>
+
+                    <li class="optioSalesLi">
+                        <a href="../planosevalores/index.html">
+                            Planos
+                                    <span class="mainSob">
+                                      e valores
+                                    </span>
+                        </a>
+                    </li>
+
+                    <li class="optioSalesLi">
+                        <a href="#">
+                            Fale
+                                    <span class="mainSob">
+                                       Conosco
+                                    </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class = "lateralRight col-xs-12 col-sm-8 col-md-9 "> <!-- lateralRight -->
+
+                    <div class = "containerCenter col-xs-12 col-sm-12 col-md-12 cadastroImovel">
+
+                        <h1>
+                            Cadastro de Imóvel
+                        </h1>
+
+
+                        <script src="http://code.jquery.com/jquery-latest.js"></script>
+                        <script src="../home/js/jquery.easyWizard.js"></script>
+
+
+                        <script>
+                            $('#myWizard').easyWizard();
+                        </script>
+
+
+                   
+                    <link href="../home/css/smart_wizard.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../home/js/jquery.smartWizard-2.0.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        // Smart Wizard     
+        $('#wizard').smartWizard();
+      
+      function onFinishCallback(){
+        $('#wizard').smartWizard('showMessage','Finish Clicked');
+      }     
+        });
+</script>
+
+
+                    <table  align="center" border="0" cellpadding="0" cellspacing="0">
+<tr><td> 
+<!-- Smart Wizard -->
+        <div id="wizard" class="swMain">
+            <ul>
+                <li><a href="#step-1">
+                <span class="stepNumber">1</span>
+                <span class="stepDesc">
+                   Passo<br />
+                   <small>Dados do anúncio</small>
+                </span>
+            </a></li>
+                <li><a href="#step-2">
+                <span class="stepNumber">2</span>
+                <span class="stepDesc">
+                   Passo<br />
+                   <small>Dados do imóvel</small>
+                </span>
+            </a></li>
+                <li><a href="#step-3">
+                <span class="stepNumber">3</span>
+                <span class="stepDesc">
+                   Passo<br />
+                   <small>Descrição do imóvel</small>
+                </span>                   
+             </a></li>
+                <li><a href="#step-4">
+                <span class="stepNumber">4</span>
+                <span class="stepDesc">
+                   Passo<br />
+                   <small>Fotos e videos</small>
+                </span>                   
+            </a></li>
+            </ul>
+            <div id="step-1">   
+            <h2 class="StepTitle">Dados do anúncio</h2>
+            <p>
+           <form id="myWizard" type="get" action="" class="form-horizontal">
+           <div class="form-group avancaorbtn">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Tipo Imóveis</label>
+                                    <div class="col-sm-8">
+                                        <select multiple class="form-control">
+                                            <option>Andar</option>
+                                            <option>Flat</option>
+                                            <option>Apartamento</option>
+                                            <option>Apartamento mobiliado</option>
+                                            <option>Casa</option>
+                                            <option>Casa mobiliada</option>
+                                            <option>Chacara</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="form-group avancaorbtn avancaorbtn2">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Estado (UF)</label>
+                                    <div class="col-sm-8">
+                                        <select multiple class="form-control">
+                                            <option>Andar</option>
+                                            <option>Flat</option>
+                                            <option>Apartamento</option>
+                                            <option>Apartamento mobiliado</option>
+                                            <option>Casa</option>
+                                            <option>Casa mobiliada</option>
+                                            <option>Chacara</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="form-group avancaorbtn avancaorbtn2">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Cidade</label>
+                                    <div class="col-sm-8">
+                                        <select multiple class="form-control">
+                                            <option>Andar</option>
+                                            <option>Flat</option>
+                                            <option>Apartamento</option>
+                                            <option>Apartamento mobiliado</option>
+                                            <option>Casa</option>
+                                            <option>Casa mobiliada</option>
+                                            <option>Chacara</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="form-group avancaorbtn avancaorbtn2">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Bairro</label>
+                                    <div class="col-sm-8">
+                                        <select  multiple class="form-control">
+                                            <option>Andar</option>
+                                            <option>Flat</option>
+                                            <option>Apartamento</option>
+                                            <option>Apartamento mobiliado</option>
+                                            <option>Casa</option>
+                                            <option>Casa mobiliada</option>
+                                            <option>Chacara</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+                                            <option>apartamento mobiliado</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+            
+                      
+        </div>
+        <div id="step-2" class = "col-xs-12 col-sm-12 col-md-12 formDadosImovel">
+            <h2 class="StepTitle">Dados do imóvel</h2>   
+
+            <p>
+
+                <div class="form-group col-sm-12">
+                    <label for="inputEmail3" class="col-sm-2 control-label">CEP: </label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="" placeholder="CEP">
+                    </div>
+                </div>
+
+
+
+                <div class="form-group col-sm-12">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Número: </label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="" placeholder="Número">
+                    </div>
+                </div>
+
+                <div class="form-group col-sm-12">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Valor do aluguel:</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="valorImovel" placeholder="Valor do imóvel">
+                    </div>
+                </div>
+
+                <div class="form-group col-sm-12">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Valor do imóvel:</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="valorImovel" placeholder="Valor do imóvel">
+                    </div>
+                </div>
+
+                <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Valor do condominio:</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" id="valorImovel" placeholder="Valor do condominio">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Aceitar Financiamento: </label>
+                        <div class="col-sm-9">
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Sim
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> Não
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12" >
+                        <label for="inputEmail3" class="col-sm-2 control-label">Aceitar Financiamento: </label>
+                        <div class="col-sm-9">
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Sim
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> Não
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Situação do imóvel</label>
+                        <div class="col-sm-8">
+                            <select class="form-control">
+                                <option>Imovel pronto</option>
+                                <option>Em construcao</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Quartos:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" id="" placeholder="Quartos">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Suítes:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" id="" placeholder="Suítes">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Banheiros:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" id="" placeholder="Banheiros">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Lavabos:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" id="" placeholder="Lavabos">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Garagem:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" id="" placeholder="Garagem">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Elevador:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" id="" placeholder="Elevador">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Andar:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" id="" placeholder="Andar">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Andares:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" id="" placeholder="Andares">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label ">Área Util:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control areaUtil" id="" placeholder="Metros quadrados" data-toggle="tooltip" data-placement="right" title="Em metros quadrados">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Área Total:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control areaTotal" id="" placeholder="Metros quadrados" data-toggle="tooltip" data-placement="right" title="Em metros quadrados">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Área Terreno:</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control areaTerreno" id="" placeholder="Metros quadrados" data-toggle="tooltip" data-placement="right" title="Em metros quadrados">
+                        </div>
+                    </div>
+
+
+
+                
+            </p>          
+        </div>                      
+            <div id="step-3">
+            <h2 class="StepTitle">Descrição do imóvel</h2>   
+            <p>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 descricaoImovel descricaoImovel2">
+                                    <div class="form-group">
+                                        <div class="col-xs-3 col-sm-3 col-md-3 ">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Aquecimento Solar
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Ar condicionado
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Área Lazer
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Área servico
+                                                </label>
+                                            </div>
+
+
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Brinquedoteca
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Churrasqueira
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Circuito TV
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Cobertura Coletiva
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-3 col-sm-3 col-md-3 ">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Armarios na cozinha
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Armário nos quartos
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Despensa
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Escritório &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Wi-Fi &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Gas encanado
+                                                </label>
+                                            </div>
+
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Gerador &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Guarita &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-3 col-sm-3 col-md-3 ">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Interfone
+                                                </label>
+                                            </div>
+
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Jardim &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;.
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Lazer no térreo
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Piscina
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Playground &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Portão eletronico
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Quadra de esportes
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Academia
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-3 col-sm-3 col-md-3 ">
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Salao de Festas
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Espaço Gourmet
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Sauna &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> SPA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Varanda &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group posicaoSol">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Posição do sol:</label>
+                                    <div class="col-sm-10">
+                                        <select class="form-control">
+                                            <option>Nascente</option>
+                                            <option>Perpendicular</option>
+                                            <option>Poente</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group posicaoSol">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Descrição do imóvel:</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control posicaoSol" rows="13" placeholder="Descrição do imóvel"></textarea>
+                                    </div>
+                                </div>
+
+
+
+               </form>
+            </p>                                      
+        </div>
+            <div id="step-4">
+            <h2 class="StepTitle">Fotos e Vídeos</h2>   
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>                            
+        </div>
+        </div>
+<!-- End SmartWizard Content -->        
+        
+</td></tr>
+</table>
+
+
+                     </div>        
+                      
+
+                </div> <!-- Fim de lateralRight -->
+
+                <div class = "footer col-xs-12 col-sm-12 col-md-12">
+                        <footer >
+                                <ul class = "col-sm-1 col-md-1" >
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li> 
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+
+                    <ul class = "col-sm-1 col-md-1">
+                        <li class = "titleMenu">Contatos</li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                        <li><a href = "">Teste</a></li>
+                    </ul>
+                        </footer>       
+                </div>
+
+        </div> <!-- Fim de Row Principal -->
+    </div><!-- Fim de Container Principal -->
+
+    <div class = "footerMain">
+    </div>
+
+    <div class = "footerMainTwe">
+             <div class = "footerMensagem"> 
+                 Copyright(c) BeeImoveis 2015 - Produzido por 2creative: 
+                 <a href = "http://www.2creativegames.com.br/" target="_blank" >www.2creativegames.com.br</a>
+             </div>
+    </div>
+
+</body><!-- Fim de body -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

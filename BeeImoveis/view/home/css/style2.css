@@ -34,8 +34,9 @@
 		 font-size:18px !important;
 	}
 	.anuncioHome h4{
-		left: 50px !important;
+		left: 230px !important;
 		top:150px !important;
+		
 	}
 
 	.agendaPainel button{
@@ -368,7 +369,7 @@ body{
 	padding-bottom: 5px;
 	background: #fff;
 	margin-top: 5px;
- 
+ 	 height: 250px;
 	border-radius: 6px;
 }
 .imgCasaAnuncianteHome{
@@ -377,18 +378,20 @@ body{
 	border:2px solid #e5af21;
 }
 .anuncioHome h5{
- font-size: 13px;
+ font-size: 16px;
  font-weight:bold;
+ color: #999;
 }
 .anuncioHome h6{
 	color: #A39797;
+	font-size:19px;
 }
 .anuncioHome h4{
 	color:#e1a41c;
-	font-size: 18px;
+	font-size: 22px;
 	position:absolute;
-    right:10px;
-    top:5px;
+    right:340px;
+    bottom:100px;
 }
 .anuncioHome button{
 font-size:17px;
@@ -1106,6 +1109,21 @@ padding-left: 0px !important;
 .listagemDeImoveis{
 	padding: 0px !important;
 }
+.listagemDeImoveis li:hover{
+	opacity:0.7;
+}
+.chatContainer{
+	background:#f5f5f5;
+	float:none;
+	overflow:scroll;
+	 height:200px;
+	padding:0px !important;
+}
+.mensagensText{
+	background:#2D0809;
+	margin-bottom:-10px !important;
+	position:fixed !important;
+}
 .estrelaFavorito{ 
 	left: 23px;
 	top: 5px;
@@ -1483,7 +1501,7 @@ border-radius:5px;
 	padding-top: 20px;
 }
 .pag{
-    width:48%;
+    width:49%;
     height:auto !important;
 }
 .vsComparacao{
@@ -1661,6 +1679,8 @@ cursor:pointer;
 .descricaoImovel2{
     border:1px solid #e5af21;
     margin-bottom:10px;
+    background: #FFD685;
+    border-radius: 5px;
 }
 
 .avancaorbtn2{

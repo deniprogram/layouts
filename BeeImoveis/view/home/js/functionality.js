@@ -5,8 +5,8 @@ $(function() {
         $(this).next().fadeIn();
     });
 
-    $('.next').html('Próximo');
-    $('.prev').html('Anterior');
+    $('.actionBar').html('Próximo');
+    $('a .buttonPrevious').html('Anterior');
     $('.areaUtil').tooltip();
     $('.areaTotal').tooltip();
     $('.areaTerreno').tooltip();
