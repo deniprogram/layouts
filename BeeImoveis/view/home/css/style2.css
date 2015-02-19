@@ -11,6 +11,11 @@
         margin-top:-100px;
         margin-right:100px;
     }
+	
+	.loginMain button{
+		background-position:100px !important;
+		padding-left:30px !important;
+	}
 }
 
 @media screen and (max-width:770px){
@@ -23,11 +28,19 @@
 		.cidadeSelect, .destaqueSeo{
 			margin-top: 10px !important;
 		}
+		.loginMain button{
+		background-position:100px !important;
+		padding-left:4px !important;
+	}
 }
 
 @media screen and (max-width:990px){
 	.retirarLi, .footer, .destaqueSeo{
 		display: none !important;
+	}
+	.loginMain button{
+		background-position:100px !important;
+		padding-left:4px !important;
 	}
 
 	.mensagemDestaque{
@@ -136,15 +149,17 @@ body{
 }
 .destaqueSeo{
 	text-decoration: underline !important;
-	margin-top: 24px;
-	font-size: 13px;
-	margin-left: -10px;
+	margin-top: 20px;
+	 
+	margin-left: 5px;
 }
 .destaqueSeo a{
     color:#333 !important;
+	 
 }
 .destaqueSeo h2{
-    font-size: 13px;
+    font-size: 17px;
+	font-weight:300 !important;
 }
 .cidadeSelect{
 	font-size: 17px;
@@ -167,6 +182,7 @@ body{
 	text-decoration: underline;
 	font-weight: 100;
 	padding: 0px;
+	
 }
 .loginMain button {
 	background: url("../img/abb.png") #e1a200 no-repeat !important; 
@@ -174,6 +190,7 @@ body{
 	color: #000;
 	text-align: left;
 	font-size: 18px;
+	padding-left:25px;
 	font-family: Tahoma;
 }
 .buscarImovel{
@@ -217,6 +234,7 @@ body{
 }	
 
 .findProperty p{
+	 
     font-size: 23px;
  }
 .findProperty{
@@ -279,6 +297,7 @@ body{
 	padding-right: 15px;
 	list-style-type: none !important;
 	text-align: center;
+	
 }
 .optioSalesUL li a{
 	color: #fff ;
@@ -288,13 +307,22 @@ body{
 	font-weight: bold !important;
 	display:block !important;
 }
+.optioSalesLi{
+		margin-left:20px;
+}
+.optioSalesLi a{
+	font-size:18px;
+}
 .optioSalesLiMain{
-	background:#e5af21;
+	border-top:1px solid #ffe863;
+	border-bottom:1px solid #ffe863;
+    background: url("../img/backButton.png") #fff no-repeat !important;
 	width: 120px;
 	color: #000 !important;
 	padding-top: 0px !important;
-	margin-top: 2px;
-	padding-bottom: 5px !important;
+	margin-top: 3px;
+	height:46px;
+	margin-top:6px;
 	border-radius: 6px;
 	margin-left: -49px !important;
 }
@@ -302,11 +330,13 @@ body{
 	color: #000 !important;
 }
 .mainSubPropriet{
-	font-size: 17px !important;
+	font-size: 16px !important;
 }
 .mainSub{
     font-weight:bold;
-    font-size:13px;
+    font-size:10x;
+	margin-top:-3px !important;
+	font-weight:100 !important;
 }
 .divDestaqueOne{
  	background: #fff;
@@ -1109,15 +1139,20 @@ padding-left: 0px !important;
 .listagemDeImoveis{
 	padding: 0px !important;
 }
-.listagemDeImoveis li:hover{
-	opacity:0.7;
+
+.listagemDeImoveis li{
+list-style-type:none;
+}
+.anuncioHome:hover{
+	background: rgba(255,255,255,0.5);
 }
 .chatContainer{
 	background:#f5f5f5;
 	float:none;
 	overflow:scroll;
-	 height:200px;
-	padding:0px !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-height: 500px;
 }
 .mensagensText{
 	background:#2D0809;
@@ -1212,10 +1247,26 @@ margin-bottom: -15px;
     border-radius:5px;
     padding-top:10px;
     padding-bottom:10px;
-
     background-repeat: no-repeat;
     background-position:right bottom;
 }
+.containerCenter p{
+ color:#999;
+}
+.containerCenter h1{
+	font-size:20px;
+	margin-top:-1px;
+}
+
+.containerCenter img{
+	margin-bottom:5px;
+}
+
+.containerCenter span{
+	color:#999;
+	margin-top:5px;
+}
+
 .easyWizardSteps {list-style:none;width:100%;overflow:hidden;margin:0;padding:0;border-bottom:1px solid #ccc;margin-bottom:20px}
 .easyWizardSteps li {font-size:18px;display:inline-block;padding:10px;color:#B0B1B3;margin-right:20px;}
 .easyWizardSteps li span {font-size:24px}
@@ -1439,6 +1490,7 @@ border-radius:5px;
 .btnEncontrar button{
     background: none !important;
     border:none;
+	margin-top:-22px !important;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
     color: #555;
@@ -1669,7 +1721,25 @@ padding-left:0px !important;
 }
 .descriCampo{
     margin-top:10px !important;
-
+}
+#triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 25px solid #777771;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	left: -24px;
+}
+#triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 25px solid #e5af21;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	right: -24px;
+	top: 10px;
 }
 .avancaorbtn a{
 color:#e5af21;
@@ -1686,3 +1756,89 @@ cursor:pointer;
 .avancaorbtn2{
     display:none;
 }
+.nuvemensagens{
+	background:rgba(000,000,000,0.5);
+	border-radius: 6px;
+ 	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 10px;
+	margin-left: 35px;
+   position: relative;         
+   max-width: 280px;
+    margin-top: 10px !important;
+   height: auto;
+}
+tr img{
+	margin-top: 10px !important;
+}
+
+.nuvemensagensTwe{
+	background: #e5af21;
+	border-radius: 6px;
+	border: 1px solid #dedede;
+	color: #000;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 10px;
+	margin-left: 35px;
+   position: absolute;
+   right: 95px;   
+   max-width: 280px;
+   height: auto;   
+
+ }
+
+ .inputMensagens{
+ 	background: #fff;
+ 	float: none;
+ 	padding: 0px !important;
+ }
+ 
+ .inputMensagens input {
+ 	padding: 24px !important;
+ }
+ .inputMensagens .in{
+ 	 	padding: 0px !important;
+
+ }
+ .chatTop{
+ 	background: #53534F;
+ 	float: none !important;
+ 	padding-top: 5px;
+ 	padding-bottom: 5px;
+ 	height: 43px;
+ 	
+ }
+ .chatTop button{
+ 	font-weight: 200;
+ 	color: #fff;
+ }
+ 
+ .textBlog{
+	 color:#333 !important;
+	 margin-top:10px;
+}
+.autorMateria{
+	background:#ddd;
+	padding-top:10px;
+	padding-bottom:5px;
+	color:#333 !important;
+}
+
+.autorMateria p{
+	color:#333 !important;
+	 }
+.autorMateria h1{
+	font-size:16px;
+}	 
+
+
+
+
+
+
+
+
+
+
